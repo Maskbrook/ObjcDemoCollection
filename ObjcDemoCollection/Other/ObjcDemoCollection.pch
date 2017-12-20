@@ -1,0 +1,16 @@
+//
+//  ObjcDemoCollection.pch
+//  ObjcDemoCollection
+//
+//  Created by jiabaozhang on 2017/12/20.
+//  Copyright © 2017年 jiabaozhang. All rights reserved.
+//
+
+#ifndef ObjcDemoCollection_pch
+#define ObjcDemoCollection_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UtilsMarco.h"
+
+#endif /* ObjcDemoCollection_pch */

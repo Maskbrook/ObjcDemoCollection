@@ -1,0 +1,41 @@
+//
+//  UtilsMarco.h
+//  OCProjects
+//
+//  Created by jiabaozhang on 2017/12/7.
+//  Copyright © 2017年 jiabaozhang. All rights reserved.
+//
+
+#ifndef UtilsMarco_h
+#define UtilsMarco_h
+
+//-------------------系统版本------------------------
+#define SystemVersionGreaterOrEqualThan(version) ([[[UIDevice currentDevice] systemVersion] floatValue] >= version)
+#define IOS8_LATER SystemVersionGreaterOrEqualThan(8.0)
+#define IOS9_LATER SystemVersionGreaterOrEqualThan(9.0)
+#define IOS10_LATER SystemVersionGreaterOrEqualThan(10.0)
+#define IOS11_LATER SystemVersionGreaterOrEqualThan(11.0)
+
+//-------------------判空宏------------------------
+#define StringIsNullOrEmpty(str) (NO == [str isKindOfClass:[NSString class]] || [str isKindOfClass:[NSNull class]] || str.length <= 0)
+#define DictionaryIsNullOrEmpty(dict) (NO == [dict isKindOfClass:[NSDictionary class]] || [dict isKindOfClass:[NSNull class]] || [dict count] <= 0)
+#define ArrayIsNullOrEmpty(arr) (NO == [arr isKindOfClass:[NSArray class]] || [arr isKindOfClass:[NSNull class]] || [arr count] <= 0)
+
+//-------------------机型适配------------------------
+#define iPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone4or5 (iPhone4||iPhone5)
+
+//-------------------快捷创建------------------------
+#define WS(weakSelf) __weak __typeof(&*self)weakSelf = self;
+#define STRONGSELF(weakSelf) __strong __typeof(&*weakSelf) self = weakSelf;
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define FONT(value) [UIFont systemFontOfSize:value]
+
+//-------------------颜色常量------------------------
+#define kThemeColor RGBA(27,108,250,1.0f)
+#define kUIViewBgColor [UIColor whiteColor]
+#define kTableViewCellBgColor [UIColor whiteColor]
+#define kTableViewBgColor [UIColor whiteColor]
+
+#endif /* UtilsMarco_h */
