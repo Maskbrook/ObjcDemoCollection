@@ -29,12 +29,21 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return self.items.count;
+}
+
+#pragma mark ## getters ##
+- (NSMutableArray *)items
+{
+    if (_items == nil) {
+        _items = [NSMutableArray array];
+    }
+    return _items;
 }
 
 @end

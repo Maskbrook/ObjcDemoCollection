@@ -10,4 +10,6 @@
 
 @interface BaseTableViewController : UITableViewController
 
+@property (nonatomic, strong) NSMutableArray *items;
+
 @end
