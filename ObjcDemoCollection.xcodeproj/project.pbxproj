@@ -23,6 +23,9 @@
 		530ED0381FEA10CD00D60DAA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED0371FEA10CD00D60DAA /* HomeViewController.m */; };
 		530ED03D1FEA130D00D60DAA /* UtilityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED03C1FEA130D00D60DAA /* UtilityTableViewController.m */; };
 		530ED0401FEA131A00D60DAA /* AnimiationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED03F1FEA131A00D60DAA /* AnimiationTableViewController.m */; };
+		530ED0451FEA47F500D60DAA /* KVOTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED0441FEA47F500D60DAA /* KVOTableViewController.m */; };
+		530ED0481FEA518400D60DAA /* KVO_Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED0471FEA518400D60DAA /* KVO_Observer.m */; };
+		530ED04B1FEA5ADC00D60DAA /* NSObject+KVO_Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED04A1FEA5ADC00D60DAA /* NSObject+KVO_Block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,12 @@
 		530ED03C1FEA130D00D60DAA /* UtilityTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilityTableViewController.m; sourceTree = "<group>"; };
 		530ED03E1FEA131A00D60DAA /* AnimiationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimiationTableViewController.h; sourceTree = "<group>"; };
 		530ED03F1FEA131A00D60DAA /* AnimiationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimiationTableViewController.m; sourceTree = "<group>"; };
+		530ED0431FEA47F500D60DAA /* KVOTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOTableViewController.h; sourceTree = "<group>"; };
+		530ED0441FEA47F500D60DAA /* KVOTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOTableViewController.m; sourceTree = "<group>"; };
+		530ED0461FEA518400D60DAA /* KVO_Observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVO_Observer.h; sourceTree = "<group>"; };
+		530ED0471FEA518400D60DAA /* KVO_Observer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVO_Observer.m; sourceTree = "<group>"; };
+		530ED0491FEA5ADC00D60DAA /* NSObject+KVO_Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO_Block.h"; sourceTree = "<group>"; };
+		530ED04A1FEA5ADC00D60DAA /* NSObject+KVO_Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO_Block.m"; sourceTree = "<group>"; };
 		7DB454C7A311C49ED8F062AA /* Pods-ObjcDemoCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcDemoCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcDemoCollection/Pods-ObjcDemoCollection.release.xcconfig"; sourceTree = "<group>"; };
 		BA324A2B3074E5DC13E3B991 /* libPods-ObjcDemoCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjcDemoCollection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -233,6 +242,7 @@
 		530ED0391FEA12E300D60DAA /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				530ED0421FEA47C800D60DAA /* KVO */,
 				530ED03B1FEA130D00D60DAA /* UtilityTableViewController.h */,
 				530ED03C1FEA130D00D60DAA /* UtilityTableViewController.m */,
 			);
@@ -246,6 +256,19 @@
 				530ED03F1FEA131A00D60DAA /* AnimiationTableViewController.m */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		530ED0421FEA47C800D60DAA /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				530ED0431FEA47F500D60DAA /* KVOTableViewController.h */,
+				530ED0441FEA47F500D60DAA /* KVOTableViewController.m */,
+				530ED0461FEA518400D60DAA /* KVO_Observer.h */,
+				530ED0471FEA518400D60DAA /* KVO_Observer.m */,
+				530ED0491FEA5ADC00D60DAA /* NSObject+KVO_Block.h */,
+				530ED04A1FEA5ADC00D60DAA /* NSObject+KVO_Block.m */,
+			);
+			path = KVO;
 			sourceTree = "<group>";
 		};
 		C9DA18C4132D7F10652A7DD1 /* Pods */ = {
@@ -444,13 +467,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530ED04B1FEA5ADC00D60DAA /* NSObject+KVO_Block.m in Sources */,
 				530ED03D1FEA130D00D60DAA /* UtilityTableViewController.m in Sources */,
 				530ED0311FEA04FD00D60DAA /* BaseTabBarController.m in Sources */,
 				530ED0301FEA04FD00D60DAA /* BaseNavigationController.m in Sources */,
+				530ED0451FEA47F500D60DAA /* KVOTableViewController.m in Sources */,
 				530ED0201FEA04AC00D60DAA /* main.m in Sources */,
 				530ED0341FEA04FD00D60DAA /* BaseTableViewCell.m in Sources */,
 				530ED0381FEA10CD00D60DAA /* HomeViewController.m in Sources */,
 				530ED0321FEA04FD00D60DAA /* BaseTableViewController.m in Sources */,
+				530ED0481FEA518400D60DAA /* KVO_Observer.m in Sources */,
 				530ED0331FEA04FD00D60DAA /* BaseViewController.m in Sources */,
 				530ED0401FEA131A00D60DAA /* AnimiationTableViewController.m in Sources */,
 				530ED01C1FEA04AC00D60DAA /* AppDelegate.m in Sources */,

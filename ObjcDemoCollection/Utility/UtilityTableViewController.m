@@ -7,6 +7,10 @@
 //
 
 #import "UtilityTableViewController.h"
+// UI
+#import "BaseTableViewCell.h"
+// Controller
+#import "KVOTableViewController.h"
 
 @interface UtilityTableViewController ()
 
@@ -17,29 +21,28 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.items = @[
+                   @{@"title" : @"KVO的几种实现", @"controller" : [KVOTableViewController new]},
+                   ].mutableCopy;
 }
 
-#pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+#pragma mark ## tableView methods ##
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.items.count;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
-}
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    BaseTableViewCell *cell = [BaseTableViewCell cellWithTableView:tableView];
+    cell.nameLabel.text = [[self.items objectAtIndex:indexPath.row] valueForKey:@"title"];
     return cell;
 }
-*/
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    [self pushViewControllerWithIndexPath:indexPath];
+}
 
 @end

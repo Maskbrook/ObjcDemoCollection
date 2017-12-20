@@ -10,6 +10,15 @@
 
 @interface BaseTableViewController : UITableViewController
 
+/**
+ tableView的数据源
+ */
 @property (nonatomic, strong) NSMutableArray *items;
+
+/**
+ 根据传入的NSINdexPath跳转控制器
+ @param path tableViewCell的indexPath
+ */
+- (void)pushViewControllerWithIndexPath:(NSIndexPath *)path;
 
 @end

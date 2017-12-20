@@ -17,7 +17,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.rowHeight = 50.0;
 }
 
@@ -44,6 +43,14 @@
         _items = [NSMutableArray array];
     }
     return _items;
+}
+
+- (void)pushViewControllerWithIndexPath:(NSIndexPath *)path
+{
+    NSString *title = [[self.items objectAtIndex:path.row] valueForKey:@"title"];
+    UIViewController *controller = [[self.items objectAtIndex:path.row] valueForKey:@"controller"];
+    controller.title = title;
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 @end

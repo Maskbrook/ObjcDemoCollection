@@ -42,7 +42,8 @@
     WS(weakSelf);
     [self.contentView addSubview:self.nameLabel];
     [self.nameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerY.mas_equalTo(weakSelf.contentView.mas_centerY);
+        make.center.equalTo(weakSelf.contentView);
+        make.height.mas_equalTo(weakSelf.contentView.mas_height);
         make.left.mas_equalTo(weakSelf.mas_left).offset(15);
     }];
 }
@@ -54,6 +55,7 @@
         _nameLabel = [[UILabel alloc] init];
         _nameLabel.textAlignment = NSTextAlignmentLeft;
         _nameLabel.font = FONT(15);
+        _nameLabel.numberOfLines = 0;
         _nameLabel.textColor = kThemeColor;
     }
     return _nameLabel;

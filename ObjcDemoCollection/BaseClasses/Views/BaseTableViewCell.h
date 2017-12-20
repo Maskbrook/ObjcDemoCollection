@@ -11,6 +11,13 @@
 @interface BaseTableViewCell : UITableViewCell
 
 @property (nonatomic, strong) UILabel *nameLabel;
+
+
+/**
+ 创建Cell
+ @param aTableView 待创建cell的tableView
+ @return BaseTableViewCell
+ */
 + (instancetype)cellWithTableView:(UITableView *)aTableView;
 
 @end

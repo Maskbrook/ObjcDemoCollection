@@ -47,12 +47,4 @@
     [self pushViewControllerWithIndexPath:indexPath];
 }
 
-- (void)pushViewControllerWithIndexPath:(NSIndexPath *)path
-{
-    NSString *title = [[self.items objectAtIndex:path.row] valueForKey:@"title"];
-    UIViewController *controller = [[self.items objectAtIndex:path.row] valueForKey:@"controller"];
-    controller.title = title;
-    [self.navigationController pushViewController:controller animated:YES];
-}
-
 @end
