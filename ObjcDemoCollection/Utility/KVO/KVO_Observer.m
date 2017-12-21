@@ -30,7 +30,7 @@
 // 更多预处理指令，参考：http://fuckingclangwarnings.com/
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wincompatible-pointer-types"
-        [object addObserver:self forKeyPath:keyPath options:0 context:CFBridgingRetain(self)];
+        [object addObserver:self forKeyPath:keyPath options:0 context:(__bridge void * _Nullable)(self)];
 #pragma clang diagnostic pop
     }
     return self;
@@ -43,7 +43,7 @@
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
 {
-    if (context == CFBridgingRetain(self)) {
+    if (context == (__bridge void * _Nullable)(self)) {
         id strongTarget = self.target;
         if ([strongTarget respondsToSelector:self.selector]) {
 // 屏蔽警告

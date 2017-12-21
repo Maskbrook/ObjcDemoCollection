@@ -9,6 +9,14 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void(^HCObservingBlock)(id observedObject, NSString *observedKeyPath, id oldValue, id newValue);
+
 @interface NSObject (KVO_Block)
+
+- (void)HC_addObserver:(NSObject *)observer
+            forKeyPath:(NSString *)keyPath
+           handleBlock:(HCObservingBlock)block;
+
+- (void)HC_removeObserver:(NSObject *)observer forKeyPath:(NSString *)keyPath;
 
 @end

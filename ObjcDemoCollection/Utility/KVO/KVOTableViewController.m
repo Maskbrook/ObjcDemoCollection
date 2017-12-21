@@ -9,6 +9,7 @@
 #import "KVOTableViewController.h"
 #import "BaseTableViewCell.h"
 #import "KVO_Observer.h"
+#import "NSObject+KVO_Block.h"
 
 @interface KVOTableViewController ()
 
@@ -19,6 +20,8 @@
     UILabel *_tableHeaderView;
     KVO_Observer *offsetObserver;
 }
+
+#pragma mark ## lifeCycle ##
 
 - (void)viewDidLoad
 {
@@ -46,6 +49,14 @@
     // KVO方式二
 //    offsetObserver = [KVO_Observer observerWithObject:self.tableView keyPath:@"contentOffset" target:self selector:@selector(tableViewContentOffsetChanged)];
     offsetObserver = [[KVO_Observer alloc] initWithObject:self.tableView keyPath:@"contentOffset" target:self selector:@selector(tableViewContentOffsetChanged)];
+    
+    // KVO方式三
+    [self.tableView HC_addObserver:self forKeyPath:@"contentOffset" handleBlock:^(id observedObject, NSString *observedKeyPath, id oldValue, id newValue) {
+        CGFloat offset = self.tableView.contentOffset.y;
+        CGFloat delta = offset / 64.f + 1.f;
+        delta = MAX(0, delta);
+        [self.navigationController navigationBar].alpha = 1 - MIN(1, delta);
+    }];
 }
 
 - (void)tableViewContentOffsetChanged
@@ -65,12 +76,13 @@
     delta = MAX(0, delta);
     [self.navigationController navigationBar].alpha = 1 - MIN(1, delta);
 }
+ */
 
 - (void)dealloc
 {
-    [self removeObserver:self forKeyPath:@"contentOffset"];
+//    [self removeObserver:self forKeyPath:@"contentOffset"];
+    [self.tableView HC_removeObserver:self forKeyPath:@"contentOffset"];
 }
- */
 
 #pragma mark ## tableView methods ##
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

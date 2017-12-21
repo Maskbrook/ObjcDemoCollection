@@ -11,6 +11,7 @@
 #import "BaseTableViewCell.h"
 // Controller
 #import "KVOTableViewController.h"
+#import "ThreadTableViewController.h"
 
 @interface UtilityTableViewController ()
 
@@ -23,6 +24,7 @@
     [super viewDidLoad];
     self.items = @[
                    @{@"title" : @"KVO的几种实现", @"controller" : [KVOTableViewController new]},
+                   @{@"title" : @"多线程", @"controller" : [ThreadTableViewController new]}
                    ].mutableCopy;
 }
 
