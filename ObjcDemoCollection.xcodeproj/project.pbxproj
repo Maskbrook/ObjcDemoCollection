@@ -27,6 +27,9 @@
 		530ED0481FEA518400D60DAA /* KVO_Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED0471FEA518400D60DAA /* KVO_Observer.m */; };
 		530ED04B1FEA5ADC00D60DAA /* NSObject+KVO_Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED04A1FEA5ADC00D60DAA /* NSObject+KVO_Block.m */; };
 		532106181FEBAECC00DDCEFD /* ThreadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532106171FEBAECC00DDCEFD /* ThreadTableViewController.m */; };
+		5367447A1FF247DE00725F5D /* GeometryDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 536744791FF247DE00725F5D /* GeometryDemoController.m */; };
+		53D15DE01FF23E9900885CE1 /* ContentsDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D15DDD1FF23E9900885CE1 /* ContentsDemoController.m */; };
+		53D15DE11FF23E9900885CE1 /* CoreAnimationBasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D15DDF1FF23E9900885CE1 /* CoreAnimationBasicController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,12 @@
 		530ED04A1FEA5ADC00D60DAA /* NSObject+KVO_Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO_Block.m"; sourceTree = "<group>"; };
 		532106161FEBAECC00DDCEFD /* ThreadTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadTableViewController.h; sourceTree = "<group>"; };
 		532106171FEBAECC00DDCEFD /* ThreadTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadTableViewController.m; sourceTree = "<group>"; };
+		536744781FF247DE00725F5D /* GeometryDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeometryDemoController.h; sourceTree = "<group>"; };
+		536744791FF247DE00725F5D /* GeometryDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeometryDemoController.m; sourceTree = "<group>"; };
+		53D15DDC1FF23E9900885CE1 /* ContentsDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsDemoController.h; sourceTree = "<group>"; };
+		53D15DDD1FF23E9900885CE1 /* ContentsDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsDemoController.m; sourceTree = "<group>"; };
+		53D15DDE1FF23E9900885CE1 /* CoreAnimationBasicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationBasicController.h; sourceTree = "<group>"; };
+		53D15DDF1FF23E9900885CE1 /* CoreAnimationBasicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationBasicController.m; sourceTree = "<group>"; };
 		7DB454C7A311C49ED8F062AA /* Pods-ObjcDemoCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcDemoCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcDemoCollection/Pods-ObjcDemoCollection.release.xcconfig"; sourceTree = "<group>"; };
 		BA324A2B3074E5DC13E3B991 /* libPods-ObjcDemoCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjcDemoCollection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -258,6 +267,7 @@
 			children = (
 				530ED03E1FEA131A00D60DAA /* AnimiationTableViewController.h */,
 				530ED03F1FEA131A00D60DAA /* AnimiationTableViewController.m */,
+				53D15DDB1FF23E9800885CE1 /* Core Animation基础动画Demo */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -282,6 +292,19 @@
 				532106171FEBAECC00DDCEFD /* ThreadTableViewController.m */,
 			);
 			path = Thread;
+			sourceTree = "<group>";
+		};
+		53D15DDB1FF23E9800885CE1 /* Core Animation基础动画Demo */ = {
+			isa = PBXGroup;
+			children = (
+				53D15DDC1FF23E9900885CE1 /* ContentsDemoController.h */,
+				53D15DDD1FF23E9900885CE1 /* ContentsDemoController.m */,
+				536744781FF247DE00725F5D /* GeometryDemoController.h */,
+				536744791FF247DE00725F5D /* GeometryDemoController.m */,
+				53D15DDE1FF23E9900885CE1 /* CoreAnimationBasicController.h */,
+				53D15DDF1FF23E9900885CE1 /* CoreAnimationBasicController.m */,
+			);
+			path = "Core Animation基础动画Demo";
 			sourceTree = "<group>";
 		};
 		C9DA18C4132D7F10652A7DD1 /* Pods */ = {
@@ -489,10 +512,13 @@
 				530ED0201FEA04AC00D60DAA /* main.m in Sources */,
 				530ED0341FEA04FD00D60DAA /* BaseTableViewCell.m in Sources */,
 				530ED0381FEA10CD00D60DAA /* HomeViewController.m in Sources */,
+				53D15DE01FF23E9900885CE1 /* ContentsDemoController.m in Sources */,
 				530ED0321FEA04FD00D60DAA /* BaseTableViewController.m in Sources */,
 				530ED0481FEA518400D60DAA /* KVO_Observer.m in Sources */,
 				530ED0331FEA04FD00D60DAA /* BaseViewController.m in Sources */,
+				5367447A1FF247DE00725F5D /* GeometryDemoController.m in Sources */,
 				530ED0401FEA131A00D60DAA /* AnimiationTableViewController.m in Sources */,
+				53D15DE11FF23E9900885CE1 /* CoreAnimationBasicController.m in Sources */,
 				530ED01C1FEA04AC00D60DAA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

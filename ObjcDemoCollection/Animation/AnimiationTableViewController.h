@@ -11,3 +11,17 @@
 @interface AnimiationTableViewController : BaseTableViewController
 
 @end
+
+
+/*
+
+ //CAAnimation （抽象类） --------->  子类：CAAnimationGroup；
+ CAMediaTiming;
+ CAAnimationGroup;
+ CAPropertyAnimation;
+ CATransition;
+ CABasicAnimation;
+ CAKeyframeAnimation;
+ 
+ 
+ */

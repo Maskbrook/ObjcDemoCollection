@@ -25,7 +25,6 @@
     [super viewWillAppear:animated];
 }
 
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 1;

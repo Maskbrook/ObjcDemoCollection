@@ -1,27 +1,29 @@
 //
-//  AnimiationTableViewController.m
+//  CoreAnimationBasicController.m
 //  ObjcDemoCollection
 //
-//  Created by jiabaozhang on 2017/12/20.
+//  Created by jiabaozhang on 2017/12/26.
 //  Copyright © 2017年 jiabaozhang. All rights reserved.
 //
 
-#import "AnimiationTableViewController.h"
 #import "CoreAnimationBasicController.h"
+#import "ContentsDemoController.h"
+#import "GeometryDemoController.h"
 #import "BaseTableViewCell.h"
 
-@interface AnimiationTableViewController ()
+@interface CoreAnimationBasicController ()
 
 @end
 
-@implementation AnimiationTableViewController
+@implementation CoreAnimationBasicController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     self.items = @[
-                   @{@"title" : @"Core Animation基础动画Demo", @"controller" : [CoreAnimationBasicController new],},
+                   @{@"title" : @"contents等概念", @"controller" : [ContentsDemoController new]},
+                   @{@"title" : @"frame,bounds,anchorpoint等", @"controller" : [GeometryDemoController new]},
                    ].mutableCopy;
 }
 
