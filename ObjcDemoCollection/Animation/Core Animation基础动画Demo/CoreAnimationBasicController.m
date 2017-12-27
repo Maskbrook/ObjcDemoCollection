@@ -9,6 +9,9 @@
 #import "CoreAnimationBasicController.h"
 #import "ContentsDemoController.h"
 #import "GeometryDemoController.h"
+#import "ContainsPointDemoController.h"
+#import "ShadowDemoController.h"
+#import "MaskLayerDemoController.h"
 #import "BaseTableViewCell.h"
 
 @interface CoreAnimationBasicController ()
@@ -24,6 +27,9 @@
     self.items = @[
                    @{@"title" : @"contents等概念", @"controller" : [ContentsDemoController new]},
                    @{@"title" : @"frame,bounds,anchorpoint等", @"controller" : [GeometryDemoController new]},
+                   @{@"title" : @"containsPoint, hitTest", @"controller" : [ContainsPointDemoController new]},
+                   @{@"title" : @"阴影", @"controller" : [ShadowDemoController new]},
+                   @{@"title" : @"蒙版图层", @"controller" : [MaskLayerDemoController new]},
                    ].mutableCopy;
 }
 

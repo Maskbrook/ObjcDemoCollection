@@ -30,6 +30,10 @@
 		5367447A1FF247DE00725F5D /* GeometryDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 536744791FF247DE00725F5D /* GeometryDemoController.m */; };
 		53D15DE01FF23E9900885CE1 /* ContentsDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D15DDD1FF23E9900885CE1 /* ContentsDemoController.m */; };
 		53D15DE11FF23E9900885CE1 /* CoreAnimationBasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D15DDF1FF23E9900885CE1 /* CoreAnimationBasicController.m */; };
+		53FA93371FF341C5002C8208 /* NSTimer+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FA93361FF341C5002C8208 /* NSTimer+Helper.m */; };
+		53FA933A1FF36D6A002C8208 /* ContainsPointDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FA93391FF36D6A002C8208 /* ContainsPointDemoController.m */; };
+		53FA933D1FF37CB8002C8208 /* ShadowDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FA933C1FF37CB8002C8208 /* ShadowDemoController.m */; };
+		53FA93431FF389DC002C8208 /* MaskLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FA93421FF389DC002C8208 /* MaskLayerDemoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +100,14 @@
 		53D15DDD1FF23E9900885CE1 /* ContentsDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsDemoController.m; sourceTree = "<group>"; };
 		53D15DDE1FF23E9900885CE1 /* CoreAnimationBasicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationBasicController.h; sourceTree = "<group>"; };
 		53D15DDF1FF23E9900885CE1 /* CoreAnimationBasicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationBasicController.m; sourceTree = "<group>"; };
+		53FA93351FF341C5002C8208 /* NSTimer+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Helper.h"; sourceTree = "<group>"; };
+		53FA93361FF341C5002C8208 /* NSTimer+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Helper.m"; sourceTree = "<group>"; };
+		53FA93381FF36D6A002C8208 /* ContainsPointDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainsPointDemoController.h; sourceTree = "<group>"; };
+		53FA93391FF36D6A002C8208 /* ContainsPointDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainsPointDemoController.m; sourceTree = "<group>"; };
+		53FA933B1FF37CB8002C8208 /* ShadowDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShadowDemoController.h; sourceTree = "<group>"; };
+		53FA933C1FF37CB8002C8208 /* ShadowDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowDemoController.m; sourceTree = "<group>"; };
+		53FA93411FF389DC002C8208 /* MaskLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskLayerDemoController.h; sourceTree = "<group>"; };
+		53FA93421FF389DC002C8208 /* MaskLayerDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskLayerDemoController.m; sourceTree = "<group>"; };
 		7DB454C7A311C49ED8F062AA /* Pods-ObjcDemoCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcDemoCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcDemoCollection/Pods-ObjcDemoCollection.release.xcconfig"; sourceTree = "<group>"; };
 		BA324A2B3074E5DC13E3B991 /* libPods-ObjcDemoCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjcDemoCollection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -159,6 +171,7 @@
 		530ECFDA1FEA03EA00D60DAA /* ObjcDemoCollection */ = {
 			isa = PBXGroup;
 			children = (
+				53FA93331FF33F22002C8208 /* Common */,
 				530ED03A1FEA12F200D60DAA /* Animation */,
 				530ED0391FEA12E300D60DAA /* Utility */,
 				530ED00F1FEA04AC00D60DAA /* BaseClasses */,
@@ -301,10 +314,33 @@
 				53D15DDD1FF23E9900885CE1 /* ContentsDemoController.m */,
 				536744781FF247DE00725F5D /* GeometryDemoController.h */,
 				536744791FF247DE00725F5D /* GeometryDemoController.m */,
+				53FA93381FF36D6A002C8208 /* ContainsPointDemoController.h */,
+				53FA93391FF36D6A002C8208 /* ContainsPointDemoController.m */,
+				53FA933B1FF37CB8002C8208 /* ShadowDemoController.h */,
+				53FA933C1FF37CB8002C8208 /* ShadowDemoController.m */,
+				53FA93411FF389DC002C8208 /* MaskLayerDemoController.h */,
+				53FA93421FF389DC002C8208 /* MaskLayerDemoController.m */,
 				53D15DDE1FF23E9900885CE1 /* CoreAnimationBasicController.h */,
 				53D15DDF1FF23E9900885CE1 /* CoreAnimationBasicController.m */,
 			);
 			path = "Core Animation基础动画Demo";
+			sourceTree = "<group>";
+		};
+		53FA93331FF33F22002C8208 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				53FA93341FF33F35002C8208 /* Categories */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		53FA93341FF33F35002C8208 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				53FA93351FF341C5002C8208 /* NSTimer+Helper.h */,
+				53FA93361FF341C5002C8208 /* NSTimer+Helper.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		C9DA18C4132D7F10652A7DD1 /* Pods */ = {
@@ -503,7 +539,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53FA933D1FF37CB8002C8208 /* ShadowDemoController.m in Sources */,
+				53FA93371FF341C5002C8208 /* NSTimer+Helper.m in Sources */,
 				530ED04B1FEA5ADC00D60DAA /* NSObject+KVO_Block.m in Sources */,
+				53FA93431FF389DC002C8208 /* MaskLayerDemoController.m in Sources */,
 				530ED03D1FEA130D00D60DAA /* UtilityTableViewController.m in Sources */,
 				530ED0311FEA04FD00D60DAA /* BaseTabBarController.m in Sources */,
 				530ED0301FEA04FD00D60DAA /* BaseNavigationController.m in Sources */,
@@ -513,6 +552,7 @@
 				530ED0341FEA04FD00D60DAA /* BaseTableViewCell.m in Sources */,
 				530ED0381FEA10CD00D60DAA /* HomeViewController.m in Sources */,
 				53D15DE01FF23E9900885CE1 /* ContentsDemoController.m in Sources */,
+				53FA933A1FF36D6A002C8208 /* ContainsPointDemoController.m in Sources */,
 				530ED0321FEA04FD00D60DAA /* BaseTableViewController.m in Sources */,
 				530ED0481FEA518400D60DAA /* KVO_Observer.m in Sources */,
 				530ED0331FEA04FD00D60DAA /* BaseViewController.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "GeometryDemoController.h"
+#import "NSTimer+Helper.h"
 
 @interface GeometryDemoController ()
 
@@ -26,8 +27,8 @@
     
     [self layoutPageSubviews];
     [self adjustAnchorPoint];
-    [self startTimer];
     [self tick];
+    [self startTimer];
 }
 
 #pragma mark - private methods
@@ -63,7 +64,10 @@
 
 - (void)startTimer
 {
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(tick) userInfo:nil repeats:YES];
+    WS(weakSelf);
+    self.timer = [NSTimer hyd_scheduledTimerWithTimeInterval:1.0 block:^{
+        [weakSelf tick];
+    } repeats:YES];
 }
 
 - (void)stopTimer
