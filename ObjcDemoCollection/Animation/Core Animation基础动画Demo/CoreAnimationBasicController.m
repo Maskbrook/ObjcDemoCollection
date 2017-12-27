@@ -12,6 +12,7 @@
 #import "ContainsPointDemoController.h"
 #import "ShadowDemoController.h"
 #import "MaskLayerDemoController.h"
+#import "StretchFilterDemoController.h"
 #import "BaseTableViewCell.h"
 
 @interface CoreAnimationBasicController ()
@@ -25,11 +26,12 @@
     [super viewDidLoad];
     
     self.items = @[
-                   @{@"title" : @"contents等概念", @"controller" : [ContentsDemoController new]},
-                   @{@"title" : @"frame,bounds,anchorpoint等", @"controller" : [GeometryDemoController new]},
+                   @{@"title" : @"内容拼接", @"controller" : [ContentsDemoController new]},
+                   @{@"title" : @"锚点与简单时钟动画", @"controller" : [GeometryDemoController new]},
                    @{@"title" : @"containsPoint, hitTest", @"controller" : [ContainsPointDemoController new]},
-                   @{@"title" : @"阴影", @"controller" : [ShadowDemoController new]},
-                   @{@"title" : @"蒙版图层", @"controller" : [MaskLayerDemoController new]},
+                   @{@"title" : @"自定义阴影", @"controller" : [ShadowDemoController new]},
+                   @{@"title" : @"图层蒙板", @"controller" : [MaskLayerDemoController new]},
+                   @{@"title" : @"拉伸过滤", @"controller" : [StretchFilterDemoController new]},
                    ].mutableCopy;
 }
 

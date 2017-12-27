@@ -34,6 +34,7 @@
 		53FA933A1FF36D6A002C8208 /* ContainsPointDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FA93391FF36D6A002C8208 /* ContainsPointDemoController.m */; };
 		53FA933D1FF37CB8002C8208 /* ShadowDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FA933C1FF37CB8002C8208 /* ShadowDemoController.m */; };
 		53FA93431FF389DC002C8208 /* MaskLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FA93421FF389DC002C8208 /* MaskLayerDemoController.m */; };
+		53FA93461FF38F44002C8208 /* StretchFilterDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FA93451FF38F44002C8208 /* StretchFilterDemoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,8 @@
 		53FA933C1FF37CB8002C8208 /* ShadowDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowDemoController.m; sourceTree = "<group>"; };
 		53FA93411FF389DC002C8208 /* MaskLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskLayerDemoController.h; sourceTree = "<group>"; };
 		53FA93421FF389DC002C8208 /* MaskLayerDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskLayerDemoController.m; sourceTree = "<group>"; };
+		53FA93441FF38F44002C8208 /* StretchFilterDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StretchFilterDemoController.h; sourceTree = "<group>"; };
+		53FA93451FF38F44002C8208 /* StretchFilterDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StretchFilterDemoController.m; sourceTree = "<group>"; };
 		7DB454C7A311C49ED8F062AA /* Pods-ObjcDemoCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcDemoCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcDemoCollection/Pods-ObjcDemoCollection.release.xcconfig"; sourceTree = "<group>"; };
 		BA324A2B3074E5DC13E3B991 /* libPods-ObjcDemoCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjcDemoCollection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -320,6 +323,8 @@
 				53FA933C1FF37CB8002C8208 /* ShadowDemoController.m */,
 				53FA93411FF389DC002C8208 /* MaskLayerDemoController.h */,
 				53FA93421FF389DC002C8208 /* MaskLayerDemoController.m */,
+				53FA93441FF38F44002C8208 /* StretchFilterDemoController.h */,
+				53FA93451FF38F44002C8208 /* StretchFilterDemoController.m */,
 				53D15DDE1FF23E9900885CE1 /* CoreAnimationBasicController.h */,
 				53D15DDF1FF23E9900885CE1 /* CoreAnimationBasicController.m */,
 			);
@@ -545,6 +550,7 @@
 				53FA93431FF389DC002C8208 /* MaskLayerDemoController.m in Sources */,
 				530ED03D1FEA130D00D60DAA /* UtilityTableViewController.m in Sources */,
 				530ED0311FEA04FD00D60DAA /* BaseTabBarController.m in Sources */,
+				53FA93461FF38F44002C8208 /* StretchFilterDemoController.m in Sources */,
 				530ED0301FEA04FD00D60DAA /* BaseNavigationController.m in Sources */,
 				530ED0451FEA47F500D60DAA /* KVOTableViewController.m in Sources */,
 				532106181FEBAECC00DDCEFD /* ThreadTableViewController.m in Sources */,
