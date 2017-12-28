@@ -55,7 +55,7 @@
     };
     
     NSInteger selectorIndex = [self.buttonsArray indexOfObject:sender];
-    // 根据id和SEL查询方法实现IMP
+    // 根据id和SEL查询方法IMP
     void(*imp)(id, SEL) = (typeof (imp))[self methodForSelector:selectors[selectorIndex]];
     // 调用IMP
     imp(self, selectors[selectorIndex]);
