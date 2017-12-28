@@ -13,6 +13,7 @@
 #import "ShadowDemoController.h"
 #import "MaskLayerDemoController.h"
 #import "StretchFilterDemoController.h"
+#import "CubeFaceDemoController.h"
 #import "BaseTableViewCell.h"
 
 @interface CoreAnimationBasicController ()
@@ -31,7 +32,8 @@
                    @{@"title" : @"containsPoint, hitTest", @"controller" : [ContainsPointDemoController new]},
                    @{@"title" : @"自定义阴影", @"controller" : [ShadowDemoController new]},
                    @{@"title" : @"图层蒙板", @"controller" : [MaskLayerDemoController new]},
-                   @{@"title" : @"拉伸过滤", @"controller" : [StretchFilterDemoController new]},
+                   @{@"title" : @"拉伸过滤与数字时钟", @"controller" : [StretchFilterDemoController new]},
+                   @{@"title" : @"Transform与立方体", @"controller" : [CubeFaceDemoController new]},
                    ].mutableCopy;
 }
 

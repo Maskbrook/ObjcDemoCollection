@@ -1,27 +1,26 @@
 //
-//  AnimiationTableViewController.m
+//  InsideObjCTableViewController.m
 //  ObjcDemoCollection
 //
-//  Created by jiabaozhang on 2017/12/20.
+//  Created by jiabaozhang on 2017/12/28.
 //  Copyright © 2017年 jiabaozhang. All rights reserved.
 //
 
-#import "AnimiationTableViewController.h"
-#import "CoreAnimationBasicController.h"
+#import "InsideObjCTableViewController.h"
 #import "BaseTableViewCell.h"
+#import "IMPCallSelectorDemoController.h"
 
-@interface AnimiationTableViewController ()
+@interface InsideObjCTableViewController ()
 
 @end
 
-@implementation AnimiationTableViewController
+@implementation InsideObjCTableViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     self.items = @[
-                   @{@"title" : @"Core Animation, Nick Lockwood", @"controller" : [CoreAnimationBasicController new],},
+                   @{@"title" : @"IMP手动调用SEL", @"controller" : [IMPCallSelectorDemoController new]},
                    ].mutableCopy;
 }
 

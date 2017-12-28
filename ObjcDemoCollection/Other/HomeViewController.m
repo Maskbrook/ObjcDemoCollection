@@ -11,6 +11,7 @@
 #import "BaseTableViewCell.h"
 #import "UtilityTableViewController.h"
 #import "AnimiationTableViewController.h"
+#import "InsideObjCTableViewController.h"
 
 @interface HomeViewController ()
 
@@ -25,6 +26,7 @@
     self.items = @[
                    @{@"title" : @"实用工具", @"controller" : [UtilityTableViewController new]},
                    @{@"title" : @"动画", @"controller" : [AnimiationTableViewController new]},
+                   @{@"title" : @"底层", @"controller" : [InsideObjCTableViewController new]},
                    ].mutableCopy;
 }
 

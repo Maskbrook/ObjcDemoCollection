@@ -27,14 +27,17 @@
 		530ED0481FEA518400D60DAA /* KVO_Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED0471FEA518400D60DAA /* KVO_Observer.m */; };
 		530ED04B1FEA5ADC00D60DAA /* NSObject+KVO_Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED04A1FEA5ADC00D60DAA /* NSObject+KVO_Block.m */; };
 		532106181FEBAECC00DDCEFD /* ThreadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532106171FEBAECC00DDCEFD /* ThreadTableViewController.m */; };
-		5367447A1FF247DE00725F5D /* GeometryDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 536744791FF247DE00725F5D /* GeometryDemoController.m */; };
-		53D15DE01FF23E9900885CE1 /* ContentsDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D15DDD1FF23E9900885CE1 /* ContentsDemoController.m */; };
-		53D15DE11FF23E9900885CE1 /* CoreAnimationBasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D15DDF1FF23E9900885CE1 /* CoreAnimationBasicController.m */; };
+		53E73E6C1FF4BFD900EA5F7C /* ContainsPointDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E5D1FF4BFD900EA5F7C /* ContainsPointDemoController.m */; };
+		53E73E6D1FF4BFD900EA5F7C /* ContentsDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E5F1FF4BFD900EA5F7C /* ContentsDemoController.m */; };
+		53E73E6E1FF4BFD900EA5F7C /* CoreAnimationBasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E611FF4BFD900EA5F7C /* CoreAnimationBasicController.m */; };
+		53E73E6F1FF4BFD900EA5F7C /* GeometryDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E631FF4BFD900EA5F7C /* GeometryDemoController.m */; };
+		53E73E701FF4BFD900EA5F7C /* MaskLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E651FF4BFD900EA5F7C /* MaskLayerDemoController.m */; };
+		53E73E711FF4BFD900EA5F7C /* ShadowDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E671FF4BFD900EA5F7C /* ShadowDemoController.m */; };
+		53E73E721FF4BFD900EA5F7C /* StretchFilterDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E691FF4BFD900EA5F7C /* StretchFilterDemoController.m */; };
+		53E73E761FF4CB4D00EA5F7C /* CubeFaceDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E751FF4CB4D00EA5F7C /* CubeFaceDemoController.m */; };
+		53E73E7D1FF4DBD900EA5F7C /* InsideObjCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E7C1FF4DBD900EA5F7C /* InsideObjCTableViewController.m */; };
+		53E73E801FF4DD5500EA5F7C /* IMPCallSelectorDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E7F1FF4DD5500EA5F7C /* IMPCallSelectorDemoController.m */; };
 		53FA93371FF341C5002C8208 /* NSTimer+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FA93361FF341C5002C8208 /* NSTimer+Helper.m */; };
-		53FA933A1FF36D6A002C8208 /* ContainsPointDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FA93391FF36D6A002C8208 /* ContainsPointDemoController.m */; };
-		53FA933D1FF37CB8002C8208 /* ShadowDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FA933C1FF37CB8002C8208 /* ShadowDemoController.m */; };
-		53FA93431FF389DC002C8208 /* MaskLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FA93421FF389DC002C8208 /* MaskLayerDemoController.m */; };
-		53FA93461FF38F44002C8208 /* StretchFilterDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FA93451FF38F44002C8208 /* StretchFilterDemoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,22 +98,28 @@
 		530ED04A1FEA5ADC00D60DAA /* NSObject+KVO_Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO_Block.m"; sourceTree = "<group>"; };
 		532106161FEBAECC00DDCEFD /* ThreadTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadTableViewController.h; sourceTree = "<group>"; };
 		532106171FEBAECC00DDCEFD /* ThreadTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadTableViewController.m; sourceTree = "<group>"; };
-		536744781FF247DE00725F5D /* GeometryDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeometryDemoController.h; sourceTree = "<group>"; };
-		536744791FF247DE00725F5D /* GeometryDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeometryDemoController.m; sourceTree = "<group>"; };
-		53D15DDC1FF23E9900885CE1 /* ContentsDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsDemoController.h; sourceTree = "<group>"; };
-		53D15DDD1FF23E9900885CE1 /* ContentsDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsDemoController.m; sourceTree = "<group>"; };
-		53D15DDE1FF23E9900885CE1 /* CoreAnimationBasicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationBasicController.h; sourceTree = "<group>"; };
-		53D15DDF1FF23E9900885CE1 /* CoreAnimationBasicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationBasicController.m; sourceTree = "<group>"; };
+		53E73E5C1FF4BFD900EA5F7C /* ContainsPointDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainsPointDemoController.h; sourceTree = "<group>"; };
+		53E73E5D1FF4BFD900EA5F7C /* ContainsPointDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainsPointDemoController.m; sourceTree = "<group>"; };
+		53E73E5E1FF4BFD900EA5F7C /* ContentsDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsDemoController.h; sourceTree = "<group>"; };
+		53E73E5F1FF4BFD900EA5F7C /* ContentsDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsDemoController.m; sourceTree = "<group>"; };
+		53E73E601FF4BFD900EA5F7C /* CoreAnimationBasicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationBasicController.h; sourceTree = "<group>"; };
+		53E73E611FF4BFD900EA5F7C /* CoreAnimationBasicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationBasicController.m; sourceTree = "<group>"; };
+		53E73E621FF4BFD900EA5F7C /* GeometryDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometryDemoController.h; sourceTree = "<group>"; };
+		53E73E631FF4BFD900EA5F7C /* GeometryDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeometryDemoController.m; sourceTree = "<group>"; };
+		53E73E641FF4BFD900EA5F7C /* MaskLayerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskLayerDemoController.h; sourceTree = "<group>"; };
+		53E73E651FF4BFD900EA5F7C /* MaskLayerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskLayerDemoController.m; sourceTree = "<group>"; };
+		53E73E661FF4BFD900EA5F7C /* ShadowDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowDemoController.h; sourceTree = "<group>"; };
+		53E73E671FF4BFD900EA5F7C /* ShadowDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowDemoController.m; sourceTree = "<group>"; };
+		53E73E681FF4BFD900EA5F7C /* StretchFilterDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StretchFilterDemoController.h; sourceTree = "<group>"; };
+		53E73E691FF4BFD900EA5F7C /* StretchFilterDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StretchFilterDemoController.m; sourceTree = "<group>"; };
+		53E73E741FF4CB4D00EA5F7C /* CubeFaceDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeFaceDemoController.h; sourceTree = "<group>"; };
+		53E73E751FF4CB4D00EA5F7C /* CubeFaceDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeFaceDemoController.m; sourceTree = "<group>"; };
+		53E73E7B1FF4DBD900EA5F7C /* InsideObjCTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsideObjCTableViewController.h; sourceTree = "<group>"; };
+		53E73E7C1FF4DBD900EA5F7C /* InsideObjCTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsideObjCTableViewController.m; sourceTree = "<group>"; };
+		53E73E7E1FF4DD5500EA5F7C /* IMPCallSelectorDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMPCallSelectorDemoController.h; sourceTree = "<group>"; };
+		53E73E7F1FF4DD5500EA5F7C /* IMPCallSelectorDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMPCallSelectorDemoController.m; sourceTree = "<group>"; };
 		53FA93351FF341C5002C8208 /* NSTimer+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Helper.h"; sourceTree = "<group>"; };
 		53FA93361FF341C5002C8208 /* NSTimer+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Helper.m"; sourceTree = "<group>"; };
-		53FA93381FF36D6A002C8208 /* ContainsPointDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainsPointDemoController.h; sourceTree = "<group>"; };
-		53FA93391FF36D6A002C8208 /* ContainsPointDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainsPointDemoController.m; sourceTree = "<group>"; };
-		53FA933B1FF37CB8002C8208 /* ShadowDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShadowDemoController.h; sourceTree = "<group>"; };
-		53FA933C1FF37CB8002C8208 /* ShadowDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowDemoController.m; sourceTree = "<group>"; };
-		53FA93411FF389DC002C8208 /* MaskLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskLayerDemoController.h; sourceTree = "<group>"; };
-		53FA93421FF389DC002C8208 /* MaskLayerDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskLayerDemoController.m; sourceTree = "<group>"; };
-		53FA93441FF38F44002C8208 /* StretchFilterDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StretchFilterDemoController.h; sourceTree = "<group>"; };
-		53FA93451FF38F44002C8208 /* StretchFilterDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StretchFilterDemoController.m; sourceTree = "<group>"; };
 		7DB454C7A311C49ED8F062AA /* Pods-ObjcDemoCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcDemoCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcDemoCollection/Pods-ObjcDemoCollection.release.xcconfig"; sourceTree = "<group>"; };
 		BA324A2B3074E5DC13E3B991 /* libPods-ObjcDemoCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjcDemoCollection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -174,6 +183,7 @@
 		530ECFDA1FEA03EA00D60DAA /* ObjcDemoCollection */ = {
 			isa = PBXGroup;
 			children = (
+				53E73E771FF4DB8100EA5F7C /* InsideObjC */,
 				53FA93331FF33F22002C8208 /* Common */,
 				530ED03A1FEA12F200D60DAA /* Animation */,
 				530ED0391FEA12E300D60DAA /* Utility */,
@@ -283,7 +293,7 @@
 			children = (
 				530ED03E1FEA131A00D60DAA /* AnimiationTableViewController.h */,
 				530ED03F1FEA131A00D60DAA /* AnimiationTableViewController.m */,
-				53D15DDB1FF23E9800885CE1 /* Core Animation基础动画Demo */,
+				53E73E5B1FF4BFD900EA5F7C /* Core_Animation_Nick_Lockwood */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -310,25 +320,38 @@
 			path = Thread;
 			sourceTree = "<group>";
 		};
-		53D15DDB1FF23E9800885CE1 /* Core Animation基础动画Demo */ = {
+		53E73E5B1FF4BFD900EA5F7C /* Core_Animation_Nick_Lockwood */ = {
 			isa = PBXGroup;
 			children = (
-				53D15DDC1FF23E9900885CE1 /* ContentsDemoController.h */,
-				53D15DDD1FF23E9900885CE1 /* ContentsDemoController.m */,
-				536744781FF247DE00725F5D /* GeometryDemoController.h */,
-				536744791FF247DE00725F5D /* GeometryDemoController.m */,
-				53FA93381FF36D6A002C8208 /* ContainsPointDemoController.h */,
-				53FA93391FF36D6A002C8208 /* ContainsPointDemoController.m */,
-				53FA933B1FF37CB8002C8208 /* ShadowDemoController.h */,
-				53FA933C1FF37CB8002C8208 /* ShadowDemoController.m */,
-				53FA93411FF389DC002C8208 /* MaskLayerDemoController.h */,
-				53FA93421FF389DC002C8208 /* MaskLayerDemoController.m */,
-				53FA93441FF38F44002C8208 /* StretchFilterDemoController.h */,
-				53FA93451FF38F44002C8208 /* StretchFilterDemoController.m */,
-				53D15DDE1FF23E9900885CE1 /* CoreAnimationBasicController.h */,
-				53D15DDF1FF23E9900885CE1 /* CoreAnimationBasicController.m */,
+				53E73E5C1FF4BFD900EA5F7C /* ContainsPointDemoController.h */,
+				53E73E5D1FF4BFD900EA5F7C /* ContainsPointDemoController.m */,
+				53E73E5E1FF4BFD900EA5F7C /* ContentsDemoController.h */,
+				53E73E5F1FF4BFD900EA5F7C /* ContentsDemoController.m */,
+				53E73E601FF4BFD900EA5F7C /* CoreAnimationBasicController.h */,
+				53E73E611FF4BFD900EA5F7C /* CoreAnimationBasicController.m */,
+				53E73E621FF4BFD900EA5F7C /* GeometryDemoController.h */,
+				53E73E631FF4BFD900EA5F7C /* GeometryDemoController.m */,
+				53E73E641FF4BFD900EA5F7C /* MaskLayerDemoController.h */,
+				53E73E651FF4BFD900EA5F7C /* MaskLayerDemoController.m */,
+				53E73E661FF4BFD900EA5F7C /* ShadowDemoController.h */,
+				53E73E671FF4BFD900EA5F7C /* ShadowDemoController.m */,
+				53E73E681FF4BFD900EA5F7C /* StretchFilterDemoController.h */,
+				53E73E691FF4BFD900EA5F7C /* StretchFilterDemoController.m */,
+				53E73E741FF4CB4D00EA5F7C /* CubeFaceDemoController.h */,
+				53E73E751FF4CB4D00EA5F7C /* CubeFaceDemoController.m */,
 			);
-			path = "Core Animation基础动画Demo";
+			path = Core_Animation_Nick_Lockwood;
+			sourceTree = "<group>";
+		};
+		53E73E771FF4DB8100EA5F7C /* InsideObjC */ = {
+			isa = PBXGroup;
+			children = (
+				53E73E7B1FF4DBD900EA5F7C /* InsideObjCTableViewController.h */,
+				53E73E7C1FF4DBD900EA5F7C /* InsideObjCTableViewController.m */,
+				53E73E7E1FF4DD5500EA5F7C /* IMPCallSelectorDemoController.h */,
+				53E73E7F1FF4DD5500EA5F7C /* IMPCallSelectorDemoController.m */,
+			);
+			path = InsideObjC;
 			sourceTree = "<group>";
 		};
 		53FA93331FF33F22002C8208 /* Common */ = {
@@ -544,27 +567,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53FA933D1FF37CB8002C8208 /* ShadowDemoController.m in Sources */,
 				53FA93371FF341C5002C8208 /* NSTimer+Helper.m in Sources */,
+				53E73E6F1FF4BFD900EA5F7C /* GeometryDemoController.m in Sources */,
+				53E73E7D1FF4DBD900EA5F7C /* InsideObjCTableViewController.m in Sources */,
 				530ED04B1FEA5ADC00D60DAA /* NSObject+KVO_Block.m in Sources */,
-				53FA93431FF389DC002C8208 /* MaskLayerDemoController.m in Sources */,
+				53E73E801FF4DD5500EA5F7C /* IMPCallSelectorDemoController.m in Sources */,
 				530ED03D1FEA130D00D60DAA /* UtilityTableViewController.m in Sources */,
 				530ED0311FEA04FD00D60DAA /* BaseTabBarController.m in Sources */,
-				53FA93461FF38F44002C8208 /* StretchFilterDemoController.m in Sources */,
+				53E73E6E1FF4BFD900EA5F7C /* CoreAnimationBasicController.m in Sources */,
+				53E73E721FF4BFD900EA5F7C /* StretchFilterDemoController.m in Sources */,
 				530ED0301FEA04FD00D60DAA /* BaseNavigationController.m in Sources */,
 				530ED0451FEA47F500D60DAA /* KVOTableViewController.m in Sources */,
+				53E73E761FF4CB4D00EA5F7C /* CubeFaceDemoController.m in Sources */,
 				532106181FEBAECC00DDCEFD /* ThreadTableViewController.m in Sources */,
 				530ED0201FEA04AC00D60DAA /* main.m in Sources */,
 				530ED0341FEA04FD00D60DAA /* BaseTableViewCell.m in Sources */,
 				530ED0381FEA10CD00D60DAA /* HomeViewController.m in Sources */,
-				53D15DE01FF23E9900885CE1 /* ContentsDemoController.m in Sources */,
-				53FA933A1FF36D6A002C8208 /* ContainsPointDemoController.m in Sources */,
+				53E73E6D1FF4BFD900EA5F7C /* ContentsDemoController.m in Sources */,
+				53E73E6C1FF4BFD900EA5F7C /* ContainsPointDemoController.m in Sources */,
+				53E73E701FF4BFD900EA5F7C /* MaskLayerDemoController.m in Sources */,
 				530ED0321FEA04FD00D60DAA /* BaseTableViewController.m in Sources */,
 				530ED0481FEA518400D60DAA /* KVO_Observer.m in Sources */,
+				53E73E711FF4BFD900EA5F7C /* ShadowDemoController.m in Sources */,
 				530ED0331FEA04FD00D60DAA /* BaseViewController.m in Sources */,
-				5367447A1FF247DE00725F5D /* GeometryDemoController.m in Sources */,
 				530ED0401FEA131A00D60DAA /* AnimiationTableViewController.m in Sources */,
-				53D15DE11FF23E9900885CE1 /* CoreAnimationBasicController.m in Sources */,
 				530ED01C1FEA04AC00D60DAA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
