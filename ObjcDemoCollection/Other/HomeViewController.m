@@ -24,9 +24,9 @@
     [super viewDidLoad];
     self.title = @"首页";
     self.items = @[
-                   @{@"title" : @"实用工具", @"controller" : [UtilityTableViewController new]},
-                   @{@"title" : @"动画", @"controller" : [AnimiationTableViewController new]},
-                   @{@"title" : @"底层", @"controller" : [InsideObjCTableViewController new]},
+                   @{@"title" : @"Utilities", @"controller" : [UtilityTableViewController new]},
+                   @{@"title" : @"Animations", @"controller" : [AnimiationTableViewController new]},
+                   @{@"title" : @"Inside Objc", @"controller" : [InsideObjCTableViewController new]},
                    ].mutableCopy;
 }
 

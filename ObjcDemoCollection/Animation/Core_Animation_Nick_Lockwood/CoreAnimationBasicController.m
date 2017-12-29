@@ -13,7 +13,8 @@
 #import "ShadowDemoController.h"
 #import "MaskLayerDemoController.h"
 #import "StretchFilterDemoController.h"
-#import "CubeFaceDemoController.h"
+#import "TransformDemoController.h"
+#import "Transform3DDemoController.h"
 #import "BaseTableViewCell.h"
 
 @interface CoreAnimationBasicController ()
@@ -33,7 +34,8 @@
                    @{@"title" : @"自定义阴影", @"controller" : [ShadowDemoController new]},
                    @{@"title" : @"图层蒙板", @"controller" : [MaskLayerDemoController new]},
                    @{@"title" : @"拉伸过滤与数字时钟", @"controller" : [StretchFilterDemoController new]},
-                   @{@"title" : @"Transform与立方体", @"controller" : [CubeFaceDemoController new]},
+                   @{@"title" : @"CGAffineTransform操作", @"controller" : [TransformDemoController new]},
+                   @{@"title" : @"Transform3D操作", @"controller" : [Transform3DDemoController new]},
                    ].mutableCopy;
 }
 
