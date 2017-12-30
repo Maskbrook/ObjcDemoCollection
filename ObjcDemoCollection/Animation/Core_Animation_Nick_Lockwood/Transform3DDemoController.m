@@ -57,6 +57,13 @@ static const CGFloat kPadding = 15.0;
     self.innerLayerView.center = self.view.center;
     self.innerLayerView.backgroundColor = [UIColor grayColor];
     [self.view addSubview:self.innerLayerView];
+    
+    UILabel *innerLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 40, 80, 40)];
+    innerLabel.backgroundColor = [UIColor redColor];
+    innerLabel.text = @"Inner";
+    innerLabel.textColor = [UIColor whiteColor];
+    innerLabel.textAlignment = NSTextAlignmentCenter;
+    [self.innerLayerView addSubview:innerLabel];
 }
 
 - (void)layoutParellelLayers
@@ -154,8 +161,20 @@ static const CGFloat kPadding = 15.0;
     // for nesting layers
     CGPoint innerPoint = [self.layerViewleft.layer convertPoint:point fromLayer:self.view.layer];
     if ([self.innerLayerView.layer containsPoint:innerPoint]) {
+        //
         CATransform3D outer = CATransform3DMakeRotation(M_PI_4, 0, 0, 1);
         self.outerLayerView.layer.transform = outer;
+        CATransform3D inner = CATransform3DMakeRotation(-M_PI_2, 0, 0, 1);
+        self.innerLayerView.layer.transform = inner;
+        
+        outer = CATransform3DIdentity;
+        outer.m34 = -1.0 / 500.0;
+        outer = CATransform3DRotate(outer, M_PI_4, 0, 1, 0);
+        self.outerLayerView.layer.transform = outer;
+        inner = CATransform3DIdentity;
+        inner.m34 = -1.0 / 500.0;
+        inner = CATransform3DRotate(inner, -M_PI_4, 0, 1, 0);
+        self.innerLayerView.layer.transform = inner;
     }
 }
 
