@@ -15,6 +15,9 @@
 #import "StretchFilterDemoController.h"
 #import "TransformDemoController.h"
 #import "Transform3DDemoController.h"
+#import "CAShapeLayerDemoController.h"
+#import "CATextLayerDemoController.h"
+#import "CATransformLayerDemoController.h"
 #import "BaseTableViewCell.h"
 
 @interface CoreAnimationBasicController ()
@@ -36,6 +39,9 @@
                    @{@"title" : @"拉伸过滤与数字时钟", @"controller" : [StretchFilterDemoController new]},
                    @{@"title" : @"CGAffineTransform操作", @"controller" : [TransformDemoController new]},
                    @{@"title" : @"Transform3D操作", @"controller" : [Transform3DDemoController new]},
+                   @{@"title" : @"专用图层:CAShapeLayer", @"controller" : [CAShapeLayerDemoController new]},
+                   @{@"title" : @"专用图层:CATextLayer", @"controller" : [CATextLayerDemoController new]},
+                   @{@"title" : @"专用图层:CATransformLayer", @"controller" : [CATransformLayerDemoController new]},
                    ].mutableCopy;
 }
 

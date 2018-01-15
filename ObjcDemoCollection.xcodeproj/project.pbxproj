@@ -27,6 +27,10 @@
 		530ED0481FEA518400D60DAA /* KVO_Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED0471FEA518400D60DAA /* KVO_Observer.m */; };
 		530ED04B1FEA5ADC00D60DAA /* NSObject+KVO_Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED04A1FEA5ADC00D60DAA /* NSObject+KVO_Block.m */; };
 		532106181FEBAECC00DDCEFD /* ThreadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532106171FEBAECC00DDCEFD /* ThreadTableViewController.m */; };
+		538E1C3E200C590900F3FC99 /* CAShapeLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538E1C3D200C590900F3FC99 /* CAShapeLayerDemoController.m */; };
+		538E1C44200C848C00F3FC99 /* CATransformLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538E1C43200C848C00F3FC99 /* CATransformLayerDemoController.m */; };
+		538E1C4D200C9C0600F3FC99 /* CATextLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538E1C49200C9C0600F3FC99 /* CATextLayerDemoController.m */; };
+		538E1C4E200C9C0600F3FC99 /* TextLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 538E1C4C200C9C0600F3FC99 /* TextLayerLabel.m */; };
 		539E9C521FF5EDC800633AE2 /* TransformDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 539E9C511FF5EDC800633AE2 /* TransformDemoController.m */; };
 		53D0FA671FF638AD008A5834 /* Transform3DDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D0FA661FF638AD008A5834 /* Transform3DDemoController.m */; };
 		53E73E6C1FF4BFD900EA5F7C /* ContainsPointDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E5D1FF4BFD900EA5F7C /* ContainsPointDemoController.m */; };
@@ -99,6 +103,14 @@
 		530ED04A1FEA5ADC00D60DAA /* NSObject+KVO_Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO_Block.m"; sourceTree = "<group>"; };
 		532106161FEBAECC00DDCEFD /* ThreadTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadTableViewController.h; sourceTree = "<group>"; };
 		532106171FEBAECC00DDCEFD /* ThreadTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadTableViewController.m; sourceTree = "<group>"; };
+		538E1C3C200C590900F3FC99 /* CAShapeLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerDemoController.h; sourceTree = "<group>"; };
+		538E1C3D200C590900F3FC99 /* CAShapeLayerDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerDemoController.m; sourceTree = "<group>"; };
+		538E1C42200C848C00F3FC99 /* CATransformLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATransformLayerDemoController.h; sourceTree = "<group>"; };
+		538E1C43200C848C00F3FC99 /* CATransformLayerDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATransformLayerDemoController.m; sourceTree = "<group>"; };
+		538E1C49200C9C0600F3FC99 /* CATextLayerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATextLayerDemoController.m; sourceTree = "<group>"; };
+		538E1C4A200C9C0600F3FC99 /* TextLayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextLayerLabel.h; sourceTree = "<group>"; };
+		538E1C4B200C9C0600F3FC99 /* CATextLayerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATextLayerDemoController.h; sourceTree = "<group>"; };
+		538E1C4C200C9C0600F3FC99 /* TextLayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextLayerLabel.m; sourceTree = "<group>"; };
 		539E9C501FF5EDC700633AE2 /* TransformDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformDemoController.h; sourceTree = "<group>"; };
 		539E9C511FF5EDC800633AE2 /* TransformDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformDemoController.m; sourceTree = "<group>"; };
 		53D0FA651FF638AD008A5834 /* Transform3DDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transform3DDemoController.h; sourceTree = "<group>"; };
@@ -323,9 +335,21 @@
 			path = Thread;
 			sourceTree = "<group>";
 		};
+		538E1C48200C9C0600F3FC99 /* CATextLayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				538E1C4B200C9C0600F3FC99 /* CATextLayerDemoController.h */,
+				538E1C49200C9C0600F3FC99 /* CATextLayerDemoController.m */,
+				538E1C4A200C9C0600F3FC99 /* TextLayerLabel.h */,
+				538E1C4C200C9C0600F3FC99 /* TextLayerLabel.m */,
+			);
+			path = CATextLayerDemo;
+			sourceTree = "<group>";
+		};
 		53E73E5B1FF4BFD900EA5F7C /* Core_Animation_Nick_Lockwood */ = {
 			isa = PBXGroup;
 			children = (
+				538E1C48200C9C0600F3FC99 /* CATextLayerDemo */,
 				53E73E5C1FF4BFD900EA5F7C /* ContainsPointDemoController.h */,
 				53E73E5D1FF4BFD900EA5F7C /* ContainsPointDemoController.m */,
 				53E73E5E1FF4BFD900EA5F7C /* ContentsDemoController.h */,
@@ -344,6 +368,10 @@
 				539E9C511FF5EDC800633AE2 /* TransformDemoController.m */,
 				53D0FA651FF638AD008A5834 /* Transform3DDemoController.h */,
 				53D0FA661FF638AD008A5834 /* Transform3DDemoController.m */,
+				538E1C3C200C590900F3FC99 /* CAShapeLayerDemoController.h */,
+				538E1C3D200C590900F3FC99 /* CAShapeLayerDemoController.m */,
+				538E1C42200C848C00F3FC99 /* CATransformLayerDemoController.h */,
+				538E1C43200C848C00F3FC99 /* CATransformLayerDemoController.m */,
 			);
 			path = Core_Animation_Nick_Lockwood;
 			sourceTree = "<group>";
@@ -572,6 +600,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				538E1C3E200C590900F3FC99 /* CAShapeLayerDemoController.m in Sources */,
 				53FA93371FF341C5002C8208 /* NSTimer+Helper.m in Sources */,
 				53E73E6F1FF4BFD900EA5F7C /* GeometryDemoController.m in Sources */,
 				53E73E7D1FF4DBD900EA5F7C /* InsideObjCTableViewController.m in Sources */,
@@ -586,9 +615,11 @@
 				530ED0301FEA04FD00D60DAA /* BaseNavigationController.m in Sources */,
 				530ED0451FEA47F500D60DAA /* KVOTableViewController.m in Sources */,
 				532106181FEBAECC00DDCEFD /* ThreadTableViewController.m in Sources */,
+				538E1C4E200C9C0600F3FC99 /* TextLayerLabel.m in Sources */,
 				530ED0201FEA04AC00D60DAA /* main.m in Sources */,
 				530ED0341FEA04FD00D60DAA /* BaseTableViewCell.m in Sources */,
 				530ED0381FEA10CD00D60DAA /* HomeViewController.m in Sources */,
+				538E1C4D200C9C0600F3FC99 /* CATextLayerDemoController.m in Sources */,
 				53E73E6D1FF4BFD900EA5F7C /* ContentsDemoController.m in Sources */,
 				53E73E6C1FF4BFD900EA5F7C /* ContainsPointDemoController.m in Sources */,
 				53E73E701FF4BFD900EA5F7C /* MaskLayerDemoController.m in Sources */,
@@ -598,6 +629,7 @@
 				530ED0331FEA04FD00D60DAA /* BaseViewController.m in Sources */,
 				530ED0401FEA131A00D60DAA /* AnimiationTableViewController.m in Sources */,
 				530ED01C1FEA04AC00D60DAA /* AppDelegate.m in Sources */,
+				538E1C44200C848C00F3FC99 /* CATransformLayerDemoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
