@@ -27,19 +27,20 @@
 		530ED0481FEA518400D60DAA /* KVO_Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED0471FEA518400D60DAA /* KVO_Observer.m */; };
 		530ED04B1FEA5ADC00D60DAA /* NSObject+KVO_Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED04A1FEA5ADC00D60DAA /* NSObject+KVO_Block.m */; };
 		532106181FEBAECC00DDCEFD /* ThreadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532106171FEBAECC00DDCEFD /* ThreadTableViewController.m */; };
-		538E1C3E200C590900F3FC99 /* CAShapeLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538E1C3D200C590900F3FC99 /* CAShapeLayerDemoController.m */; };
-		538E1C44200C848C00F3FC99 /* CATransformLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538E1C43200C848C00F3FC99 /* CATransformLayerDemoController.m */; };
-		538E1C4D200C9C0600F3FC99 /* CATextLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538E1C49200C9C0600F3FC99 /* CATextLayerDemoController.m */; };
-		538E1C4E200C9C0600F3FC99 /* TextLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 538E1C4C200C9C0600F3FC99 /* TextLayerLabel.m */; };
-		539E9C521FF5EDC800633AE2 /* TransformDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 539E9C511FF5EDC800633AE2 /* TransformDemoController.m */; };
-		53D0FA671FF638AD008A5834 /* Transform3DDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D0FA661FF638AD008A5834 /* Transform3DDemoController.m */; };
-		53E73E6C1FF4BFD900EA5F7C /* ContainsPointDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E5D1FF4BFD900EA5F7C /* ContainsPointDemoController.m */; };
-		53E73E6D1FF4BFD900EA5F7C /* ContentsDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E5F1FF4BFD900EA5F7C /* ContentsDemoController.m */; };
+		53480002200DF5BE00F68D42 /* CAShapeLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFF8200DF5BE00F68D42 /* CAShapeLayerDemoController.m */; };
+		53480003200DF5BE00F68D42 /* CAGradientLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFF9200DF5BE00F68D42 /* CAGradientLayerDemoController.m */; };
+		53480004200DF5BE00F68D42 /* CATextLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFFA200DF5BE00F68D42 /* CATextLayerDemoController.m */; };
+		53480005200DF5BE00F68D42 /* CATransformLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFFC200DF5BE00F68D42 /* CATransformLayerDemoController.m */; };
+		53480006200DF5BE00F68D42 /* TextLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53480000200DF5BE00F68D42 /* TextLayerLabel.m */; };
+		5348FFEF200DF5BA00F68D42 /* StretchFilterDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFE0200DF5BA00F68D42 /* StretchFilterDemoController.m */; };
+		5348FFF0200DF5BA00F68D42 /* TransformDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFE2200DF5BA00F68D42 /* TransformDemoController.m */; };
+		5348FFF1200DF5BA00F68D42 /* MaskLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFE6200DF5BA00F68D42 /* MaskLayerDemoController.m */; };
+		5348FFF2200DF5BA00F68D42 /* Transform3DDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFE7200DF5BA00F68D42 /* Transform3DDemoController.m */; };
+		5348FFF3200DF5BA00F68D42 /* GeometryDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFE8200DF5BA00F68D42 /* GeometryDemoController.m */; };
+		5348FFF4200DF5BA00F68D42 /* ContainsPointDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFEA200DF5BA00F68D42 /* ContainsPointDemoController.m */; };
+		5348FFF5200DF5BA00F68D42 /* ShadowDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFEC200DF5BA00F68D42 /* ShadowDemoController.m */; };
+		5348FFF6200DF5BA00F68D42 /* ContentsDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFEE200DF5BA00F68D42 /* ContentsDemoController.m */; };
 		53E73E6E1FF4BFD900EA5F7C /* CoreAnimationBasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E611FF4BFD900EA5F7C /* CoreAnimationBasicController.m */; };
-		53E73E6F1FF4BFD900EA5F7C /* GeometryDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E631FF4BFD900EA5F7C /* GeometryDemoController.m */; };
-		53E73E701FF4BFD900EA5F7C /* MaskLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E651FF4BFD900EA5F7C /* MaskLayerDemoController.m */; };
-		53E73E711FF4BFD900EA5F7C /* ShadowDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E671FF4BFD900EA5F7C /* ShadowDemoController.m */; };
-		53E73E721FF4BFD900EA5F7C /* StretchFilterDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E691FF4BFD900EA5F7C /* StretchFilterDemoController.m */; };
 		53E73E7D1FF4DBD900EA5F7C /* InsideObjCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E7C1FF4DBD900EA5F7C /* InsideObjCTableViewController.m */; };
 		53E73E801FF4DD5500EA5F7C /* IMPCallSelectorDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E7F1FF4DD5500EA5F7C /* IMPCallSelectorDemoController.m */; };
 		53FA93371FF341C5002C8208 /* NSTimer+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FA93361FF341C5002C8208 /* NSTimer+Helper.m */; };
@@ -103,32 +104,34 @@
 		530ED04A1FEA5ADC00D60DAA /* NSObject+KVO_Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO_Block.m"; sourceTree = "<group>"; };
 		532106161FEBAECC00DDCEFD /* ThreadTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadTableViewController.h; sourceTree = "<group>"; };
 		532106171FEBAECC00DDCEFD /* ThreadTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadTableViewController.m; sourceTree = "<group>"; };
-		538E1C3C200C590900F3FC99 /* CAShapeLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerDemoController.h; sourceTree = "<group>"; };
-		538E1C3D200C590900F3FC99 /* CAShapeLayerDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerDemoController.m; sourceTree = "<group>"; };
-		538E1C42200C848C00F3FC99 /* CATransformLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATransformLayerDemoController.h; sourceTree = "<group>"; };
-		538E1C43200C848C00F3FC99 /* CATransformLayerDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATransformLayerDemoController.m; sourceTree = "<group>"; };
-		538E1C49200C9C0600F3FC99 /* CATextLayerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATextLayerDemoController.m; sourceTree = "<group>"; };
-		538E1C4A200C9C0600F3FC99 /* TextLayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextLayerLabel.h; sourceTree = "<group>"; };
-		538E1C4B200C9C0600F3FC99 /* CATextLayerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATextLayerDemoController.h; sourceTree = "<group>"; };
-		538E1C4C200C9C0600F3FC99 /* TextLayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextLayerLabel.m; sourceTree = "<group>"; };
-		539E9C501FF5EDC700633AE2 /* TransformDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformDemoController.h; sourceTree = "<group>"; };
-		539E9C511FF5EDC800633AE2 /* TransformDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformDemoController.m; sourceTree = "<group>"; };
-		53D0FA651FF638AD008A5834 /* Transform3DDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transform3DDemoController.h; sourceTree = "<group>"; };
-		53D0FA661FF638AD008A5834 /* Transform3DDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transform3DDemoController.m; sourceTree = "<group>"; };
-		53E73E5C1FF4BFD900EA5F7C /* ContainsPointDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainsPointDemoController.h; sourceTree = "<group>"; };
-		53E73E5D1FF4BFD900EA5F7C /* ContainsPointDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainsPointDemoController.m; sourceTree = "<group>"; };
-		53E73E5E1FF4BFD900EA5F7C /* ContentsDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsDemoController.h; sourceTree = "<group>"; };
-		53E73E5F1FF4BFD900EA5F7C /* ContentsDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsDemoController.m; sourceTree = "<group>"; };
+		53480000200DF5BE00F68D42 /* TextLayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextLayerLabel.m; sourceTree = "<group>"; };
+		53480001200DF5BE00F68D42 /* CATransformLayerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransformLayerDemoController.h; sourceTree = "<group>"; };
+		5348FFDF200DF5BA00F68D42 /* GeometryDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometryDemoController.h; sourceTree = "<group>"; };
+		5348FFE0200DF5BA00F68D42 /* StretchFilterDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StretchFilterDemoController.m; sourceTree = "<group>"; };
+		5348FFE1200DF5BA00F68D42 /* Transform3DDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform3DDemoController.h; sourceTree = "<group>"; };
+		5348FFE2200DF5BA00F68D42 /* TransformDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformDemoController.m; sourceTree = "<group>"; };
+		5348FFE3200DF5BA00F68D42 /* ContainsPointDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainsPointDemoController.h; sourceTree = "<group>"; };
+		5348FFE4200DF5BA00F68D42 /* ShadowDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowDemoController.h; sourceTree = "<group>"; };
+		5348FFE5200DF5BA00F68D42 /* ContentsDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsDemoController.h; sourceTree = "<group>"; };
+		5348FFE6200DF5BA00F68D42 /* MaskLayerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskLayerDemoController.m; sourceTree = "<group>"; };
+		5348FFE7200DF5BA00F68D42 /* Transform3DDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transform3DDemoController.m; sourceTree = "<group>"; };
+		5348FFE8200DF5BA00F68D42 /* GeometryDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeometryDemoController.m; sourceTree = "<group>"; };
+		5348FFE9200DF5BA00F68D42 /* StretchFilterDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StretchFilterDemoController.h; sourceTree = "<group>"; };
+		5348FFEA200DF5BA00F68D42 /* ContainsPointDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainsPointDemoController.m; sourceTree = "<group>"; };
+		5348FFEB200DF5BA00F68D42 /* TransformDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformDemoController.h; sourceTree = "<group>"; };
+		5348FFEC200DF5BA00F68D42 /* ShadowDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowDemoController.m; sourceTree = "<group>"; };
+		5348FFED200DF5BA00F68D42 /* MaskLayerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskLayerDemoController.h; sourceTree = "<group>"; };
+		5348FFEE200DF5BA00F68D42 /* ContentsDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsDemoController.m; sourceTree = "<group>"; };
+		5348FFF8200DF5BE00F68D42 /* CAShapeLayerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerDemoController.m; sourceTree = "<group>"; };
+		5348FFF9200DF5BE00F68D42 /* CAGradientLayerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAGradientLayerDemoController.m; sourceTree = "<group>"; };
+		5348FFFA200DF5BE00F68D42 /* CATextLayerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATextLayerDemoController.m; sourceTree = "<group>"; };
+		5348FFFB200DF5BE00F68D42 /* TextLayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextLayerLabel.h; sourceTree = "<group>"; };
+		5348FFFC200DF5BE00F68D42 /* CATransformLayerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransformLayerDemoController.m; sourceTree = "<group>"; };
+		5348FFFD200DF5BE00F68D42 /* CAGradientLayerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAGradientLayerDemoController.h; sourceTree = "<group>"; };
+		5348FFFE200DF5BE00F68D42 /* CAShapeLayerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerDemoController.h; sourceTree = "<group>"; };
+		5348FFFF200DF5BE00F68D42 /* CATextLayerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATextLayerDemoController.h; sourceTree = "<group>"; };
 		53E73E601FF4BFD900EA5F7C /* CoreAnimationBasicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationBasicController.h; sourceTree = "<group>"; };
 		53E73E611FF4BFD900EA5F7C /* CoreAnimationBasicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationBasicController.m; sourceTree = "<group>"; };
-		53E73E621FF4BFD900EA5F7C /* GeometryDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometryDemoController.h; sourceTree = "<group>"; };
-		53E73E631FF4BFD900EA5F7C /* GeometryDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeometryDemoController.m; sourceTree = "<group>"; };
-		53E73E641FF4BFD900EA5F7C /* MaskLayerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskLayerDemoController.h; sourceTree = "<group>"; };
-		53E73E651FF4BFD900EA5F7C /* MaskLayerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskLayerDemoController.m; sourceTree = "<group>"; };
-		53E73E661FF4BFD900EA5F7C /* ShadowDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowDemoController.h; sourceTree = "<group>"; };
-		53E73E671FF4BFD900EA5F7C /* ShadowDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowDemoController.m; sourceTree = "<group>"; };
-		53E73E681FF4BFD900EA5F7C /* StretchFilterDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StretchFilterDemoController.h; sourceTree = "<group>"; };
-		53E73E691FF4BFD900EA5F7C /* StretchFilterDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StretchFilterDemoController.m; sourceTree = "<group>"; };
 		53E73E7B1FF4DBD900EA5F7C /* InsideObjCTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsideObjCTableViewController.h; sourceTree = "<group>"; };
 		53E73E7C1FF4DBD900EA5F7C /* InsideObjCTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsideObjCTableViewController.m; sourceTree = "<group>"; };
 		53E73E7E1FF4DD5500EA5F7C /* IMPCallSelectorDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMPCallSelectorDemoController.h; sourceTree = "<group>"; };
@@ -335,43 +338,53 @@
 			path = Thread;
 			sourceTree = "<group>";
 		};
-		538E1C48200C9C0600F3FC99 /* CATextLayerDemo */ = {
+		5348FFDE200DF5BA00F68D42 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
-				538E1C4B200C9C0600F3FC99 /* CATextLayerDemoController.h */,
-				538E1C49200C9C0600F3FC99 /* CATextLayerDemoController.m */,
-				538E1C4A200C9C0600F3FC99 /* TextLayerLabel.h */,
-				538E1C4C200C9C0600F3FC99 /* TextLayerLabel.m */,
+				5348FFDF200DF5BA00F68D42 /* GeometryDemoController.h */,
+				5348FFE8200DF5BA00F68D42 /* GeometryDemoController.m */,
+				5348FFE0200DF5BA00F68D42 /* StretchFilterDemoController.m */,
+				5348FFE9200DF5BA00F68D42 /* StretchFilterDemoController.h */,
+				5348FFE1200DF5BA00F68D42 /* Transform3DDemoController.h */,
+				5348FFE7200DF5BA00F68D42 /* Transform3DDemoController.m */,
+				5348FFE2200DF5BA00F68D42 /* TransformDemoController.m */,
+				5348FFEB200DF5BA00F68D42 /* TransformDemoController.h */,
+				5348FFE3200DF5BA00F68D42 /* ContainsPointDemoController.h */,
+				5348FFEA200DF5BA00F68D42 /* ContainsPointDemoController.m */,
+				5348FFE4200DF5BA00F68D42 /* ShadowDemoController.h */,
+				5348FFEC200DF5BA00F68D42 /* ShadowDemoController.m */,
+				5348FFE5200DF5BA00F68D42 /* ContentsDemoController.h */,
+				5348FFEE200DF5BA00F68D42 /* ContentsDemoController.m */,
+				5348FFE6200DF5BA00F68D42 /* MaskLayerDemoController.m */,
+				5348FFED200DF5BA00F68D42 /* MaskLayerDemoController.h */,
 			);
-			path = CATextLayerDemo;
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		5348FFF7200DF5BE00F68D42 /* SpecialLayers */ = {
+			isa = PBXGroup;
+			children = (
+				5348FFFE200DF5BE00F68D42 /* CAShapeLayerDemoController.h */,
+				5348FFF8200DF5BE00F68D42 /* CAShapeLayerDemoController.m */,
+				5348FFFF200DF5BE00F68D42 /* CATextLayerDemoController.h */,
+				5348FFFA200DF5BE00F68D42 /* CATextLayerDemoController.m */,
+				5348FFFB200DF5BE00F68D42 /* TextLayerLabel.h */,
+				53480000200DF5BE00F68D42 /* TextLayerLabel.m */,
+				53480001200DF5BE00F68D42 /* CATransformLayerDemoController.h */,
+				5348FFFC200DF5BE00F68D42 /* CATransformLayerDemoController.m */,
+				5348FFFD200DF5BE00F68D42 /* CAGradientLayerDemoController.h */,
+				5348FFF9200DF5BE00F68D42 /* CAGradientLayerDemoController.m */,
+			);
+			path = SpecialLayers;
 			sourceTree = "<group>";
 		};
 		53E73E5B1FF4BFD900EA5F7C /* Core_Animation_Nick_Lockwood */ = {
 			isa = PBXGroup;
 			children = (
-				538E1C48200C9C0600F3FC99 /* CATextLayerDemo */,
-				53E73E5C1FF4BFD900EA5F7C /* ContainsPointDemoController.h */,
-				53E73E5D1FF4BFD900EA5F7C /* ContainsPointDemoController.m */,
-				53E73E5E1FF4BFD900EA5F7C /* ContentsDemoController.h */,
-				53E73E5F1FF4BFD900EA5F7C /* ContentsDemoController.m */,
+				5348FFF7200DF5BE00F68D42 /* SpecialLayers */,
+				5348FFDE200DF5BA00F68D42 /* Basic */,
 				53E73E601FF4BFD900EA5F7C /* CoreAnimationBasicController.h */,
 				53E73E611FF4BFD900EA5F7C /* CoreAnimationBasicController.m */,
-				53E73E621FF4BFD900EA5F7C /* GeometryDemoController.h */,
-				53E73E631FF4BFD900EA5F7C /* GeometryDemoController.m */,
-				53E73E641FF4BFD900EA5F7C /* MaskLayerDemoController.h */,
-				53E73E651FF4BFD900EA5F7C /* MaskLayerDemoController.m */,
-				53E73E661FF4BFD900EA5F7C /* ShadowDemoController.h */,
-				53E73E671FF4BFD900EA5F7C /* ShadowDemoController.m */,
-				53E73E681FF4BFD900EA5F7C /* StretchFilterDemoController.h */,
-				53E73E691FF4BFD900EA5F7C /* StretchFilterDemoController.m */,
-				539E9C501FF5EDC700633AE2 /* TransformDemoController.h */,
-				539E9C511FF5EDC800633AE2 /* TransformDemoController.m */,
-				53D0FA651FF638AD008A5834 /* Transform3DDemoController.h */,
-				53D0FA661FF638AD008A5834 /* Transform3DDemoController.m */,
-				538E1C3C200C590900F3FC99 /* CAShapeLayerDemoController.h */,
-				538E1C3D200C590900F3FC99 /* CAShapeLayerDemoController.m */,
-				538E1C42200C848C00F3FC99 /* CATransformLayerDemoController.h */,
-				538E1C43200C848C00F3FC99 /* CATransformLayerDemoController.m */,
 			);
 			path = Core_Animation_Nick_Lockwood;
 			sourceTree = "<group>";
@@ -600,36 +613,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				538E1C3E200C590900F3FC99 /* CAShapeLayerDemoController.m in Sources */,
+				53480002200DF5BE00F68D42 /* CAShapeLayerDemoController.m in Sources */,
+				5348FFF2200DF5BA00F68D42 /* Transform3DDemoController.m in Sources */,
 				53FA93371FF341C5002C8208 /* NSTimer+Helper.m in Sources */,
-				53E73E6F1FF4BFD900EA5F7C /* GeometryDemoController.m in Sources */,
+				5348FFF4200DF5BA00F68D42 /* ContainsPointDemoController.m in Sources */,
 				53E73E7D1FF4DBD900EA5F7C /* InsideObjCTableViewController.m in Sources */,
 				530ED04B1FEA5ADC00D60DAA /* NSObject+KVO_Block.m in Sources */,
-				53D0FA671FF638AD008A5834 /* Transform3DDemoController.m in Sources */,
+				5348FFF5200DF5BA00F68D42 /* ShadowDemoController.m in Sources */,
+				5348FFF1200DF5BA00F68D42 /* MaskLayerDemoController.m in Sources */,
 				53E73E801FF4DD5500EA5F7C /* IMPCallSelectorDemoController.m in Sources */,
 				530ED03D1FEA130D00D60DAA /* UtilityTableViewController.m in Sources */,
 				530ED0311FEA04FD00D60DAA /* BaseTabBarController.m in Sources */,
+				53480006200DF5BE00F68D42 /* TextLayerLabel.m in Sources */,
 				53E73E6E1FF4BFD900EA5F7C /* CoreAnimationBasicController.m in Sources */,
-				53E73E721FF4BFD900EA5F7C /* StretchFilterDemoController.m in Sources */,
-				539E9C521FF5EDC800633AE2 /* TransformDemoController.m in Sources */,
 				530ED0301FEA04FD00D60DAA /* BaseNavigationController.m in Sources */,
+				5348FFF6200DF5BA00F68D42 /* ContentsDemoController.m in Sources */,
 				530ED0451FEA47F500D60DAA /* KVOTableViewController.m in Sources */,
 				532106181FEBAECC00DDCEFD /* ThreadTableViewController.m in Sources */,
-				538E1C4E200C9C0600F3FC99 /* TextLayerLabel.m in Sources */,
 				530ED0201FEA04AC00D60DAA /* main.m in Sources */,
+				5348FFEF200DF5BA00F68D42 /* StretchFilterDemoController.m in Sources */,
+				53480004200DF5BE00F68D42 /* CATextLayerDemoController.m in Sources */,
 				530ED0341FEA04FD00D60DAA /* BaseTableViewCell.m in Sources */,
 				530ED0381FEA10CD00D60DAA /* HomeViewController.m in Sources */,
-				538E1C4D200C9C0600F3FC99 /* CATextLayerDemoController.m in Sources */,
-				53E73E6D1FF4BFD900EA5F7C /* ContentsDemoController.m in Sources */,
-				53E73E6C1FF4BFD900EA5F7C /* ContainsPointDemoController.m in Sources */,
-				53E73E701FF4BFD900EA5F7C /* MaskLayerDemoController.m in Sources */,
 				530ED0321FEA04FD00D60DAA /* BaseTableViewController.m in Sources */,
+				5348FFF3200DF5BA00F68D42 /* GeometryDemoController.m in Sources */,
+				53480003200DF5BE00F68D42 /* CAGradientLayerDemoController.m in Sources */,
 				530ED0481FEA518400D60DAA /* KVO_Observer.m in Sources */,
-				53E73E711FF4BFD900EA5F7C /* ShadowDemoController.m in Sources */,
 				530ED0331FEA04FD00D60DAA /* BaseViewController.m in Sources */,
+				53480005200DF5BE00F68D42 /* CATransformLayerDemoController.m in Sources */,
+				5348FFF0200DF5BA00F68D42 /* TransformDemoController.m in Sources */,
 				530ED0401FEA131A00D60DAA /* AnimiationTableViewController.m in Sources */,
 				530ED01C1FEA04AC00D60DAA /* AppDelegate.m in Sources */,
-				538E1C44200C848C00F3FC99 /* CATransformLayerDemoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

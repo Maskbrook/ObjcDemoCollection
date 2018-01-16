@@ -18,6 +18,7 @@
 #import "CAShapeLayerDemoController.h"
 #import "CATextLayerDemoController.h"
 #import "CATransformLayerDemoController.h"
+#import "CAGradientLayerDemoController.h"
 #import "BaseTableViewCell.h"
 
 @interface CoreAnimationBasicController ()
@@ -42,6 +43,7 @@
                    @{@"title" : @"专用图层:CAShapeLayer", @"controller" : [CAShapeLayerDemoController new]},
                    @{@"title" : @"专用图层:CATextLayer", @"controller" : [CATextLayerDemoController new]},
                    @{@"title" : @"专用图层:CATransformLayer", @"controller" : [CATransformLayerDemoController new]},
+                   @{@"title" : @"专用图层:CAGradientLayer", @"controller" : [CAGradientLayerDemoController new]},
                    ].mutableCopy;
 }
 
