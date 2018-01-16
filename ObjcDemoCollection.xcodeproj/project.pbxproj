@@ -32,6 +32,7 @@
 		53480004200DF5BE00F68D42 /* CATextLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFFA200DF5BE00F68D42 /* CATextLayerDemoController.m */; };
 		53480005200DF5BE00F68D42 /* CATransformLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFFC200DF5BE00F68D42 /* CATransformLayerDemoController.m */; };
 		53480006200DF5BE00F68D42 /* TextLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53480000200DF5BE00F68D42 /* TextLayerLabel.m */; };
+		53480009200DF75800F68D42 /* CAReplicatorLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53480008200DF75800F68D42 /* CAReplicatorLayerDemoController.m */; };
 		5348FFEF200DF5BA00F68D42 /* StretchFilterDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFE0200DF5BA00F68D42 /* StretchFilterDemoController.m */; };
 		5348FFF0200DF5BA00F68D42 /* TransformDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFE2200DF5BA00F68D42 /* TransformDemoController.m */; };
 		5348FFF1200DF5BA00F68D42 /* MaskLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFE6200DF5BA00F68D42 /* MaskLayerDemoController.m */; };
@@ -106,6 +107,8 @@
 		532106171FEBAECC00DDCEFD /* ThreadTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadTableViewController.m; sourceTree = "<group>"; };
 		53480000200DF5BE00F68D42 /* TextLayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextLayerLabel.m; sourceTree = "<group>"; };
 		53480001200DF5BE00F68D42 /* CATransformLayerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransformLayerDemoController.h; sourceTree = "<group>"; };
+		53480007200DF75800F68D42 /* CAReplicatorLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayerDemoController.h; sourceTree = "<group>"; };
+		53480008200DF75800F68D42 /* CAReplicatorLayerDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayerDemoController.m; sourceTree = "<group>"; };
 		5348FFDF200DF5BA00F68D42 /* GeometryDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometryDemoController.h; sourceTree = "<group>"; };
 		5348FFE0200DF5BA00F68D42 /* StretchFilterDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StretchFilterDemoController.m; sourceTree = "<group>"; };
 		5348FFE1200DF5BA00F68D42 /* Transform3DDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform3DDemoController.h; sourceTree = "<group>"; };
@@ -374,6 +377,8 @@
 				5348FFFC200DF5BE00F68D42 /* CATransformLayerDemoController.m */,
 				5348FFFD200DF5BE00F68D42 /* CAGradientLayerDemoController.h */,
 				5348FFF9200DF5BE00F68D42 /* CAGradientLayerDemoController.m */,
+				53480007200DF75800F68D42 /* CAReplicatorLayerDemoController.h */,
+				53480008200DF75800F68D42 /* CAReplicatorLayerDemoController.m */,
 			);
 			path = SpecialLayers;
 			sourceTree = "<group>";
@@ -381,10 +386,10 @@
 		53E73E5B1FF4BFD900EA5F7C /* Core_Animation_Nick_Lockwood */ = {
 			isa = PBXGroup;
 			children = (
-				5348FFF7200DF5BE00F68D42 /* SpecialLayers */,
-				5348FFDE200DF5BA00F68D42 /* Basic */,
 				53E73E601FF4BFD900EA5F7C /* CoreAnimationBasicController.h */,
 				53E73E611FF4BFD900EA5F7C /* CoreAnimationBasicController.m */,
+				5348FFF7200DF5BE00F68D42 /* SpecialLayers */,
+				5348FFDE200DF5BA00F68D42 /* Basic */,
 			);
 			path = Core_Animation_Nick_Lockwood;
 			sourceTree = "<group>";
@@ -630,6 +635,7 @@
 				5348FFF6200DF5BA00F68D42 /* ContentsDemoController.m in Sources */,
 				530ED0451FEA47F500D60DAA /* KVOTableViewController.m in Sources */,
 				532106181FEBAECC00DDCEFD /* ThreadTableViewController.m in Sources */,
+				53480009200DF75800F68D42 /* CAReplicatorLayerDemoController.m in Sources */,
 				530ED0201FEA04AC00D60DAA /* main.m in Sources */,
 				5348FFEF200DF5BA00F68D42 /* StretchFilterDemoController.m in Sources */,
 				53480004200DF5BE00F68D42 /* CATextLayerDemoController.m in Sources */,

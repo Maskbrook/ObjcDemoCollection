@@ -19,6 +19,7 @@
 #import "CATextLayerDemoController.h"
 #import "CATransformLayerDemoController.h"
 #import "CAGradientLayerDemoController.h"
+#import "CAReplicatorLayerDemoController.h"
 #import "BaseTableViewCell.h"
 
 @interface CoreAnimationBasicController ()
@@ -32,6 +33,7 @@
     [super viewDidLoad];
     
     self.items = @[
+                   
                    @{@"title" : @"内容拼接", @"controller" : [ContentsDemoController new]},
                    @{@"title" : @"锚点与简单时钟动画", @"controller" : [GeometryDemoController new]},
                    @{@"title" : @"containsPoint, hitTest", @"controller" : [ContainsPointDemoController new]},
@@ -44,6 +46,8 @@
                    @{@"title" : @"专用图层:CATextLayer", @"controller" : [CATextLayerDemoController new]},
                    @{@"title" : @"专用图层:CATransformLayer", @"controller" : [CATransformLayerDemoController new]},
                    @{@"title" : @"专用图层:CAGradientLayer", @"controller" : [CAGradientLayerDemoController new]},
+                   @{@"title" : @"专用图层:CAReplicatorLayer", @"controller" : [CAReplicatorLayerDemoController new]},
+                   
                    ].mutableCopy;
 }
 
