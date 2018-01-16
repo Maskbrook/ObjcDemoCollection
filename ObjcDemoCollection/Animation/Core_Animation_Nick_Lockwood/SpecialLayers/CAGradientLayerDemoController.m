@@ -16,6 +16,7 @@
 {
     UIView *basicGradientView;
     UIView *mutipleGradientView;
+    UIButton *loginButton;
 }
 
 - (void)viewDidLoad
@@ -25,6 +26,7 @@
     
     [self basicGradientView];
     [self mutipleGradientView];
+    [self loginButtonGradientLayer];
 }
 
 #pragma mark - private methods
@@ -38,6 +40,29 @@
     mutipleGradientView = [[UIView alloc] initWithFrame:CGRectMake(100, 280, 150, 150)];
     mutipleGradientView.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:mutipleGradientView];
+    
+    loginButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    loginButton.frame = CGRectMake(100, 450, 220, 44);
+    [loginButton setBackgroundColor:kThemeColor];
+    [loginButton setTitle:@"登录" forState:UIControlStateNormal];
+    [self.view addSubview:loginButton];
+}
+
+// 设置按钮渐变
+- (void)loginButtonGradientLayer
+{
+    CAGradientLayer *layer = [CAGradientLayer layer];
+    layer.frame = loginButton.bounds;
+    [loginButton.layer addSublayer:layer];
+    
+    layer.colors = @[
+                     (__bridge id)[UIColor redColor].CGColor,
+                     (__bridge id)[UIColor magentaColor].CGColor,
+                     (__bridge id)[UIColor blueColor].CGColor,
+                     ];
+    
+    layer.startPoint = CGPointMake(0, 1);
+    layer.endPoint = CGPointMake(1, 1);
 }
 
 // 基础渐变
