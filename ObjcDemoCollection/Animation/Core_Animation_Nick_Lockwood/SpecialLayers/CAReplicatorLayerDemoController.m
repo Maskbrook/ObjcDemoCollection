@@ -67,7 +67,7 @@
     
     CALayer *layer = [CALayer layer];
     layer.backgroundColor = [UIColor redColor].CGColor;
-    layer.frame = CGRectMake(100, 100, 150, 150);
+    layer.frame = CGRectMake(100, 80, 150, 150);
     layer.contents = (__bridge id)([UIImage imageNamed:@"Igloo"]).CGImage;
     layer.contentsScale = [UIScreen mainScreen].scale;
     [replicator addSublayer:layer];
