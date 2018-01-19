@@ -21,6 +21,7 @@
 #import "CAGradientLayerDemoController.h"
 #import "CAReplicatorLayerDemoController.h"
 #import "CAScrollLayerDemoController.h"
+#import "CAEmitterLayerDemoController.h"
 #import "BaseTableViewCell.h"
 
 @interface CoreAnimationBasicController ()
@@ -49,6 +50,7 @@
                    @{@"title" : @"专用图层:CAGradientLayer", @"controller" : [CAGradientLayerDemoController new]},
                    @{@"title" : @"专用图层:CAReplicatorLayer", @"controller" : [CAReplicatorLayerDemoController new]},
                    @{@"title" : @"专用图层:CAScrollLayer", @"controller" : [CAScrollLayerDemoController new]},
+                   @{@"title" : @"专用图层:CAEmitterLayer", @"controller" : [CAEmitterLayerDemoController new]},
                    
                    ].mutableCopy;
 }

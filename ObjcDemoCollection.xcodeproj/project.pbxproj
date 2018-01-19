@@ -27,6 +27,8 @@
 		530ED0481FEA518400D60DAA /* KVO_Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED0471FEA518400D60DAA /* KVO_Observer.m */; };
 		530ED04B1FEA5ADC00D60DAA /* NSObject+KVO_Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED04A1FEA5ADC00D60DAA /* NSObject+KVO_Block.m */; };
 		532106181FEBAECC00DDCEFD /* ThreadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532106171FEBAECC00DDCEFD /* ThreadTableViewController.m */; };
+		533D5A0320119A130002D3C1 /* CAEmitterLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D5A0220119A130002D3C1 /* CAEmitterLayerDemoController.m */; };
+		533D5A062011A0690002D3C1 /* CAEAGLLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D5A052011A0690002D3C1 /* CAEAGLLayerDemoController.m */; };
 		53480002200DF5BE00F68D42 /* CAShapeLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFF8200DF5BE00F68D42 /* CAShapeLayerDemoController.m */; };
 		53480003200DF5BE00F68D42 /* CAGradientLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFF9200DF5BE00F68D42 /* CAGradientLayerDemoController.m */; };
 		53480004200DF5BE00F68D42 /* CATextLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFFA200DF5BE00F68D42 /* CATextLayerDemoController.m */; };
@@ -106,6 +108,10 @@
 		530ED04A1FEA5ADC00D60DAA /* NSObject+KVO_Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO_Block.m"; sourceTree = "<group>"; };
 		532106161FEBAECC00DDCEFD /* ThreadTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadTableViewController.h; sourceTree = "<group>"; };
 		532106171FEBAECC00DDCEFD /* ThreadTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadTableViewController.m; sourceTree = "<group>"; };
+		533D5A0120119A130002D3C1 /* CAEmitterLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerDemoController.h; sourceTree = "<group>"; };
+		533D5A0220119A130002D3C1 /* CAEmitterLayerDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerDemoController.m; sourceTree = "<group>"; };
+		533D5A042011A0690002D3C1 /* CAEAGLLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAEAGLLayerDemoController.h; sourceTree = "<group>"; };
+		533D5A052011A0690002D3C1 /* CAEAGLLayerDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEAGLLayerDemoController.m; sourceTree = "<group>"; };
 		53480000200DF5BE00F68D42 /* TextLayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextLayerLabel.m; sourceTree = "<group>"; };
 		53480001200DF5BE00F68D42 /* CATransformLayerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransformLayerDemoController.h; sourceTree = "<group>"; };
 		53480007200DF75800F68D42 /* CAReplicatorLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayerDemoController.h; sourceTree = "<group>"; };
@@ -384,6 +390,10 @@
 				53480008200DF75800F68D42 /* CAReplicatorLayerDemoController.m */,
 				53B298862010B6210041C937 /* CAScrollLayerDemoController.h */,
 				53B298872010B6210041C937 /* CAScrollLayerDemoController.m */,
+				533D5A0120119A130002D3C1 /* CAEmitterLayerDemoController.h */,
+				533D5A0220119A130002D3C1 /* CAEmitterLayerDemoController.m */,
+				533D5A042011A0690002D3C1 /* CAEAGLLayerDemoController.h */,
+				533D5A052011A0690002D3C1 /* CAEAGLLayerDemoController.m */,
 			);
 			path = SpecialLayers;
 			sourceTree = "<group>";
@@ -624,6 +634,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53480002200DF5BE00F68D42 /* CAShapeLayerDemoController.m in Sources */,
+				533D5A062011A0690002D3C1 /* CAEAGLLayerDemoController.m in Sources */,
 				5348FFF2200DF5BA00F68D42 /* Transform3DDemoController.m in Sources */,
 				53FA93371FF341C5002C8208 /* NSTimer+Helper.m in Sources */,
 				5348FFF4200DF5BA00F68D42 /* ContainsPointDemoController.m in Sources */,
@@ -654,6 +665,7 @@
 				530ED0331FEA04FD00D60DAA /* BaseViewController.m in Sources */,
 				53480005200DF5BE00F68D42 /* CATransformLayerDemoController.m in Sources */,
 				5348FFF0200DF5BA00F68D42 /* TransformDemoController.m in Sources */,
+				533D5A0320119A130002D3C1 /* CAEmitterLayerDemoController.m in Sources */,
 				530ED0401FEA131A00D60DAA /* AnimiationTableViewController.m in Sources */,
 				530ED01C1FEA04AC00D60DAA /* AppDelegate.m in Sources */,
 			);
