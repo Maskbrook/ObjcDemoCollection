@@ -43,6 +43,12 @@
 		5348FFF4200DF5BA00F68D42 /* ContainsPointDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFEA200DF5BA00F68D42 /* ContainsPointDemoController.m */; };
 		5348FFF5200DF5BA00F68D42 /* ShadowDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFEC200DF5BA00F68D42 /* ShadowDemoController.m */; };
 		5348FFF6200DF5BA00F68D42 /* ContentsDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFEE200DF5BA00F68D42 /* ContentsDemoController.m */; };
+		5361F115201592BB004B8189 /* AVPalyerLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5361F114201592BB004B8189 /* AVPalyerLayerDemoController.m */; };
+		5361F1172015B88E004B8189 /* Ship.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5361F1162015B88E004B8189 /* Ship.mp4 */; };
+		5361F11C2015BBEA004B8189 /* ImplicitAnimationDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5361F11B2015BBEA004B8189 /* ImplicitAnimationDemoController.m */; };
+		5361F1222015CEE1004B8189 /* ImplicitAnimationDemo2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5361F1212015CEE1004B8189 /* ImplicitAnimationDemo2Controller.m */; };
+		5361F1252015D885004B8189 /* ImplicitAnimationDemo3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5361F1242015D885004B8189 /* ImplicitAnimationDemo3Controller.m */; };
+		5361F1282015DABF004B8189 /* ExplicitAnimationDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5361F1272015DABF004B8189 /* ExplicitAnimationDemoController.m */; };
 		53B298882010B6210041C937 /* CAScrollLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B298872010B6210041C937 /* CAScrollLayerDemoController.m */; };
 		53E73E6E1FF4BFD900EA5F7C /* CoreAnimationBasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E611FF4BFD900EA5F7C /* CoreAnimationBasicController.m */; };
 		53E73E7D1FF4DBD900EA5F7C /* InsideObjCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E7C1FF4DBD900EA5F7C /* InsideObjCTableViewController.m */; };
@@ -140,6 +146,17 @@
 		5348FFFD200DF5BE00F68D42 /* CAGradientLayerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAGradientLayerDemoController.h; sourceTree = "<group>"; };
 		5348FFFE200DF5BE00F68D42 /* CAShapeLayerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerDemoController.h; sourceTree = "<group>"; };
 		5348FFFF200DF5BE00F68D42 /* CATextLayerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATextLayerDemoController.h; sourceTree = "<group>"; };
+		5361F113201592BB004B8189 /* AVPalyerLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPalyerLayerDemoController.h; sourceTree = "<group>"; };
+		5361F114201592BB004B8189 /* AVPalyerLayerDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPalyerLayerDemoController.m; sourceTree = "<group>"; };
+		5361F1162015B88E004B8189 /* Ship.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ship.mp4; sourceTree = "<group>"; };
+		5361F11A2015BBEA004B8189 /* ImplicitAnimationDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImplicitAnimationDemoController.h; sourceTree = "<group>"; };
+		5361F11B2015BBEA004B8189 /* ImplicitAnimationDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimationDemoController.m; sourceTree = "<group>"; };
+		5361F1202015CEE0004B8189 /* ImplicitAnimationDemo2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImplicitAnimationDemo2Controller.h; sourceTree = "<group>"; };
+		5361F1212015CEE1004B8189 /* ImplicitAnimationDemo2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimationDemo2Controller.m; sourceTree = "<group>"; };
+		5361F1232015D885004B8189 /* ImplicitAnimationDemo3Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImplicitAnimationDemo3Controller.h; sourceTree = "<group>"; };
+		5361F1242015D885004B8189 /* ImplicitAnimationDemo3Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimationDemo3Controller.m; sourceTree = "<group>"; };
+		5361F1262015DABF004B8189 /* ExplicitAnimationDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExplicitAnimationDemoController.h; sourceTree = "<group>"; };
+		5361F1272015DABF004B8189 /* ExplicitAnimationDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExplicitAnimationDemoController.m; sourceTree = "<group>"; };
 		53B298862010B6210041C937 /* CAScrollLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAScrollLayerDemoController.h; sourceTree = "<group>"; };
 		53B298872010B6210041C937 /* CAScrollLayerDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAScrollLayerDemoController.m; sourceTree = "<group>"; };
 		53E73E601FF4BFD900EA5F7C /* CoreAnimationBasicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationBasicController.h; sourceTree = "<group>"; };
@@ -245,6 +262,7 @@
 		530ED00D1FEA04AC00D60DAA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5361F1162015B88E004B8189 /* Ship.mp4 */,
 				530ED00E1FEA04AC00D60DAA /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -394,8 +412,32 @@
 				533D5A0220119A130002D3C1 /* CAEmitterLayerDemoController.m */,
 				533D5A042011A0690002D3C1 /* CAEAGLLayerDemoController.h */,
 				533D5A052011A0690002D3C1 /* CAEAGLLayerDemoController.m */,
+				5361F113201592BB004B8189 /* AVPalyerLayerDemoController.h */,
+				5361F114201592BB004B8189 /* AVPalyerLayerDemoController.m */,
 			);
 			path = SpecialLayers;
+			sourceTree = "<group>";
+		};
+		5361F1182015BB90004B8189 /* ImplicitAnimation(隐式动画) */ = {
+			isa = PBXGroup;
+			children = (
+				5361F11A2015BBEA004B8189 /* ImplicitAnimationDemoController.h */,
+				5361F11B2015BBEA004B8189 /* ImplicitAnimationDemoController.m */,
+				5361F1202015CEE0004B8189 /* ImplicitAnimationDemo2Controller.h */,
+				5361F1212015CEE1004B8189 /* ImplicitAnimationDemo2Controller.m */,
+				5361F1232015D885004B8189 /* ImplicitAnimationDemo3Controller.h */,
+				5361F1242015D885004B8189 /* ImplicitAnimationDemo3Controller.m */,
+			);
+			path = "ImplicitAnimation(隐式动画)";
+			sourceTree = "<group>";
+		};
+		5361F1192015BBB5004B8189 /* ExplicitAnimation(显示动画) */ = {
+			isa = PBXGroup;
+			children = (
+				5361F1262015DABF004B8189 /* ExplicitAnimationDemoController.h */,
+				5361F1272015DABF004B8189 /* ExplicitAnimationDemoController.m */,
+			);
+			path = "ExplicitAnimation(显示动画)";
 			sourceTree = "<group>";
 		};
 		53E73E5B1FF4BFD900EA5F7C /* Core_Animation_Nick_Lockwood */ = {
@@ -403,8 +445,10 @@
 			children = (
 				53E73E601FF4BFD900EA5F7C /* CoreAnimationBasicController.h */,
 				53E73E611FF4BFD900EA5F7C /* CoreAnimationBasicController.m */,
-				5348FFF7200DF5BE00F68D42 /* SpecialLayers */,
 				5348FFDE200DF5BA00F68D42 /* Basic */,
+				5348FFF7200DF5BE00F68D42 /* SpecialLayers */,
+				5361F1182015BB90004B8189 /* ImplicitAnimation(隐式动画) */,
+				5361F1192015BBB5004B8189 /* ExplicitAnimation(显示动画) */,
 			);
 			path = Core_Animation_Nick_Lockwood;
 			sourceTree = "<group>";
@@ -558,6 +602,7 @@
 				530ED01F1FEA04AC00D60DAA /* Info.plist in Resources */,
 				530ED01B1FEA04AC00D60DAA /* Assets.xcassets in Resources */,
 				530ED01D1FEA04AC00D60DAA /* LaunchScreen.storyboard in Resources */,
+				5361F1172015B88E004B8189 /* Ship.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,6 +684,7 @@
 				53FA93371FF341C5002C8208 /* NSTimer+Helper.m in Sources */,
 				5348FFF4200DF5BA00F68D42 /* ContainsPointDemoController.m in Sources */,
 				53E73E7D1FF4DBD900EA5F7C /* InsideObjCTableViewController.m in Sources */,
+				5361F1252015D885004B8189 /* ImplicitAnimationDemo3Controller.m in Sources */,
 				530ED04B1FEA5ADC00D60DAA /* NSObject+KVO_Block.m in Sources */,
 				5348FFF5200DF5BA00F68D42 /* ShadowDemoController.m in Sources */,
 				5348FFF1200DF5BA00F68D42 /* MaskLayerDemoController.m in Sources */,
@@ -650,11 +696,15 @@
 				530ED0301FEA04FD00D60DAA /* BaseNavigationController.m in Sources */,
 				5348FFF6200DF5BA00F68D42 /* ContentsDemoController.m in Sources */,
 				530ED0451FEA47F500D60DAA /* KVOTableViewController.m in Sources */,
+				5361F11C2015BBEA004B8189 /* ImplicitAnimationDemoController.m in Sources */,
 				532106181FEBAECC00DDCEFD /* ThreadTableViewController.m in Sources */,
 				53480009200DF75800F68D42 /* CAReplicatorLayerDemoController.m in Sources */,
+				5361F1282015DABF004B8189 /* ExplicitAnimationDemoController.m in Sources */,
 				53B298882010B6210041C937 /* CAScrollLayerDemoController.m in Sources */,
+				5361F1222015CEE1004B8189 /* ImplicitAnimationDemo2Controller.m in Sources */,
 				530ED0201FEA04AC00D60DAA /* main.m in Sources */,
 				5348FFEF200DF5BA00F68D42 /* StretchFilterDemoController.m in Sources */,
+				5361F115201592BB004B8189 /* AVPalyerLayerDemoController.m in Sources */,
 				53480004200DF5BE00F68D42 /* CATextLayerDemoController.m in Sources */,
 				530ED0341FEA04FD00D60DAA /* BaseTableViewCell.m in Sources */,
 				530ED0381FEA10CD00D60DAA /* HomeViewController.m in Sources */,

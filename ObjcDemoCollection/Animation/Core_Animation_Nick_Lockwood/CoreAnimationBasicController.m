@@ -15,6 +15,7 @@
 #import "StretchFilterDemoController.h"
 #import "TransformDemoController.h"
 #import "Transform3DDemoController.h"
+// 专用图层
 #import "CAShapeLayerDemoController.h"
 #import "CATextLayerDemoController.h"
 #import "CATransformLayerDemoController.h"
@@ -22,6 +23,14 @@
 #import "CAReplicatorLayerDemoController.h"
 #import "CAScrollLayerDemoController.h"
 #import "CAEmitterLayerDemoController.h"
+#import "CAEAGLLayerDemoController.h"
+#import "AVPalyerLayerDemoController.h"
+// 隐式动画
+#import "ImplicitAnimationDemoController.h"
+#import "ImplicitAnimationDemo2Controller.h"
+#import "ImplicitAnimationDemo3Controller.h"
+// 显示动画
+#import "ExplicitAnimationDemoController.h"
 #import "BaseTableViewCell.h"
 
 @interface CoreAnimationBasicController ()
@@ -47,10 +56,16 @@
                    @{@"title" : @"专用图层:CAShapeLayer", @"controller" : [CAShapeLayerDemoController new]},
                    @{@"title" : @"专用图层:CATextLayer", @"controller" : [CATextLayerDemoController new]},
                    @{@"title" : @"专用图层:CATransformLayer", @"controller" : [CATransformLayerDemoController new]},
-                   @{@"title" : @"专用图层:CAGradientLayer", @"controller" : [CAGradientLayerDemoController new]},
-                   @{@"title" : @"专用图层:CAReplicatorLayer", @"controller" : [CAReplicatorLayerDemoController new]},
-                   @{@"title" : @"专用图层:CAScrollLayer", @"controller" : [CAScrollLayerDemoController new]},
-                   @{@"title" : @"专用图层:CAEmitterLayer", @"controller" : [CAEmitterLayerDemoController new]},
+                   @{@"title" : @"专用图层:CAGradientLayer(渐变)", @"controller" : [CAGradientLayerDemoController new]},
+                   @{@"title" : @"专用图层:CAReplicatorLayer(相似图层)", @"controller" : [CAReplicatorLayerDemoController new]},
+                   @{@"title" : @"专用图层:CAScrollLayer(滚动)", @"controller" : [CAScrollLayerDemoController new]},
+                   @{@"title" : @"专用图层:CAEmitterLayer(粒子,如烟雾、火)", @"controller" : [CAEmitterLayerDemoController new]},
+                   @{@"title" : @"专用图层:CAEAGLLayer(OpenGL)", @"controller" : [CAEAGLLayerDemoController new]},
+                   @{@"title" : @"专用图层:AVPalyerLayer(播放器图层)", @"controller" : [AVPalyerLayerDemoController new]},
+                   @{@"title" : @"隐式动画-1", @"controller" : [ImplicitAnimationDemoController new]},
+                   @{@"title" : @"隐式动画-2", @"controller" : [ImplicitAnimationDemo2Controller new]},
+                   @{@"title" : @"隐式动画-3", @"controller" : [ImplicitAnimationDemo3Controller new]},
+                   @{@"title" : @"显示动画-1", @"controller" : [ExplicitAnimationDemoController new]},
                    
                    ].mutableCopy;
 }

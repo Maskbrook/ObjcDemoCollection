@@ -11,6 +11,7 @@
 @interface CAEAGLLayerDemoController : BaseViewController
 
 /*
+    OpenGL简单绘制
  */
 
 @end
