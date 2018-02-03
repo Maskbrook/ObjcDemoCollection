@@ -1,28 +1,26 @@
 //
-//  UtilityTableViewController.m
+//  CustomViewsController.m
 //  ObjcDemoCollection
 //
-//  Created by jiabaozhang on 2017/12/20.
-//  Copyright © 2017年 jiabaozhang. All rights reserved.
+//  Created by 张家宝 on 2018/2/4.
+//  Copyright © 2018年 jiabaozhang. All rights reserved.
 //
 
-#import "UtilityTableViewController.h"
-// UI
+#import "CustomViewsController.h"
 #import "BaseTableViewCell.h"
-// Controller
-#import "KVOTableViewController.h"
+#import "PopMenuController.h"
 
-@interface UtilityTableViewController ()
+@interface CustomViewsController ()
 
 @end
 
-@implementation UtilityTableViewController
+@implementation CustomViewsController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     self.items = @[
-                   @{@"title" : @"KVO的几种实现", @"controller" : [KVOTableViewController new]},
+                   @{@"title" : @"仿支付宝弹出菜单View", @"controller" : [PopMenuController new]},
                    ].mutableCopy;
 }
 

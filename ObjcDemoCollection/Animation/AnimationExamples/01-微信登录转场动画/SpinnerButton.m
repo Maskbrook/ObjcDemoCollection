@@ -166,11 +166,7 @@
         if (_block) {
             _block();
         }
-//        [NSTimer scheduledTimerWithTimeInterval:0.5f target:self selector:@selector(didStopAnimation) userInfo:nil repeats:nil];
-        WS(ws);
-        [NSTimer hyd_scheduledTimerWithTimeInterval:0.5f block:^{
-            [ws didStopAnimation];
-        } repeats:NO];
+        [NSTimer scheduledTimerWithTimeInterval:0.5f target:self selector:@selector(didStopAnimation) userInfo:nil repeats:nil];
     }
 }
 

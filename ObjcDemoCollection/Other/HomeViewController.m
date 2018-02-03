@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 #import "BaseNavigationController.h"
 #import "BaseTableViewCell.h"
+#import "CustomViewsController.h"
 #import "UtilityTableViewController.h"
 #import "AnimiationTableViewController.h"
 #import "InsideObjCTableViewController.h"
@@ -24,6 +25,7 @@
     [super viewDidLoad];
     self.title = @"首页";
     self.items = @[
+                   @{@"title" : @"Custom Views", @"controller" : [CustomViewsController new]},
                    @{@"title" : @"Utilities", @"controller" : [UtilityTableViewController new]},
                    @{@"title" : @"Animations", @"controller" : [AnimiationTableViewController new]},
                    @{@"title" : @"Inside Objc", @"controller" : [InsideObjCTableViewController new]},
