@@ -13,6 +13,7 @@
 #import "UtilityTableViewController.h"
 #import "AnimiationTableViewController.h"
 #import "InsideObjCTableViewController.h"
+#import "ArchitectureController.h"
 
 @interface HomeViewController ()
 
@@ -29,6 +30,8 @@
                    @{@"title" : @"Utilities", @"controller" : [UtilityTableViewController new]},
                    @{@"title" : @"Animations", @"controller" : [AnimiationTableViewController new]},
                    @{@"title" : @"Inside Objc", @"controller" : [InsideObjCTableViewController new]},
+                   @{@"title" : @"Architecture", @"controller" : [ArchitectureController new]},
+                   
                    ].mutableCopy;
 }
 

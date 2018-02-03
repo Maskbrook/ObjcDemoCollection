@@ -9,6 +9,10 @@
 #import "CustomViewsController.h"
 #import "BaseTableViewCell.h"
 #import "PopMenuController.h"
+#import "InfiniteBannerController.h"
+#import "LineflowController.h"
+#import "WaterflowController.h"
+#import "ScrollingTitlesBarController.h"
 
 @interface CustomViewsController ()
 
@@ -20,7 +24,12 @@
 {
     [super viewDidLoad];
     self.items = @[
-                   @{@"title" : @"仿支付宝弹出菜单View", @"controller" : [PopMenuController new]},
+                   @{@"title" : @"01-仿支付宝弹出菜单View", @"controller" : [PopMenuController new]},
+                   @{@"title" : @"02-collectionView瀑布流布局", @"controller" : [WaterflowController new]},
+                   @{@"title" : @"03-collectionView流水布局", @"controller" : [LineflowController new]},
+                   @{@"title" : @"04-无线滚动的banner", @"controller" : [InfiniteBannerController new]},
+                   @{@"title" : @"05-仿今日头条滚动列表", @"controller" : [ScrollingTitlesBarController new]},
+                   
                    ].mutableCopy;
 }
 

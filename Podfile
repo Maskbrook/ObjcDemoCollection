@@ -4,4 +4,5 @@ target 'ObjcDemoCollection' do
         pod 'YYModel'
         pod 'Masonry'
         pod 'AFNetworking'
+	pod 'SDWebImage'
 end

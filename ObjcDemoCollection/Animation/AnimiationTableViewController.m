@@ -22,8 +22,8 @@
     [super viewDidLoad];
     
     self.items = @[
-                   @{@"title" : @"Core Animation, Nick Lockwood", @"controller" : [CoreAnimationBasicController new],},
-                   @{@"title" : @"项目常用动画效果", @"controller" : [AnimationExamplesController new],},
+                   @{@"title" : @"01-Core Animation, Nick Lockwood", @"controller" : [CoreAnimationBasicController new],},
+                   @{@"title" : @"02-项目常用动画效果", @"controller" : [AnimationExamplesController new],},
                    ].mutableCopy;
 }
 

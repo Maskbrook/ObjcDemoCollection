@@ -11,6 +11,8 @@
 #import "BaseTableViewCell.h"
 // Controller
 #import "KVOTableViewController.h"
+#import "CheckAppVersionController.h"
+#import "DeviceInfoController.h"
 
 @interface UtilityTableViewController ()
 
@@ -22,7 +24,10 @@
 {
     [super viewDidLoad];
     self.items = @[
-                   @{@"title" : @"KVO的几种实现", @"controller" : [KVOTableViewController new]},
+                   @{@"title" : @"01-KVO的几种实现", @"controller" : [KVOTableViewController new]},
+                   @{@"title" : @"02-检测app版本更新", @"controller" : [CheckAppVersionController new]},
+                   @{@"title" : @"03-UUID等设备信息", @"controller" : [DeviceInfoController new]},
+                   
                    ].mutableCopy;
 }
 

@@ -20,7 +20,7 @@
 {
     [super viewDidLoad];
     self.items = @[
-                   @{@"title" : @"IMP手动调用SEL", @"controller" : [IMPCallSelectorDemoController new]},
+                   @{@"title" : @"01-IMP手动调用SEL", @"controller" : [IMPCallSelectorDemoController new]},
                    ].mutableCopy;
 }
 
