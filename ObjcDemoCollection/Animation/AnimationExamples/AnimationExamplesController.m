@@ -1,29 +1,27 @@
 //
-//  AnimiationTableViewController.m
+//  AnimationExamplesController.m
 //  ObjcDemoCollection
 //
-//  Created by jiabaozhang on 2017/12/20.
-//  Copyright © 2017年 jiabaozhang. All rights reserved.
+//  Created by 张家宝 on 2018/2/4.
+//  Copyright © 2018年 jiabaozhang. All rights reserved.
 //
 
-#import "AnimiationTableViewController.h"
-#import "CoreAnimationBasicController.h"
 #import "AnimationExamplesController.h"
+#import "WechatLoginController.h"
 #import "BaseTableViewCell.h"
 
-@interface AnimiationTableViewController ()
+@interface AnimationExamplesController ()
 
 @end
 
-@implementation AnimiationTableViewController
+@implementation AnimationExamplesController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     self.items = @[
-                   @{@"title" : @"Core Animation, Nick Lockwood", @"controller" : [CoreAnimationBasicController new],},
-                   @{@"title" : @"项目常用动画效果", @"controller" : [AnimationExamplesController new],},
+                   @{@"title" : @"01-微信登录转场动画", @"controller" : [WechatLoginController new],},
                    ].mutableCopy;
 }
 
