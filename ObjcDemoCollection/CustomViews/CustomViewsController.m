@@ -13,6 +13,7 @@
 #import "LineflowController.h"
 #import "WaterflowController.h"
 #import "ScrollingTitlesBarController.h"
+#import "DatePickerViewController.h"
 
 @interface CustomViewsController ()
 
@@ -29,6 +30,7 @@
                    @{@"title" : @"03-collectionView流水布局", @"controller" : [LineflowController new]},
                    @{@"title" : @"04-无线滚动的banner", @"controller" : [InfiniteBannerController new]},
                    @{@"title" : @"05-仿今日头条滚动列表", @"controller" : [ScrollingTitlesBarController new]},
+                   @{@"title" : @"06-自定义时间选择器", @"controller" : [DatePickerViewController new]},
                    
                    ].mutableCopy;
 }
