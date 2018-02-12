@@ -30,11 +30,10 @@
     
     __typeof(self) weakSelf = self;
     self.showMenuButton.actionBlock = ^{
-        weakSelf.picker = [[HYDDatePickerView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
-        [weakSelf.view addSubview:weakSelf.picker];
-        weakSelf.picker.HYDDatePickerViewConfimrBlock = ^(UIButton *sender) {
-            NSLog(@"------");
-        };
+        weakSelf.picker = [HYDDatePickerView datePickerView];
+        [weakSelf.picker showInView:[UIApplication sharedApplication].keyWindow handler:^(NSString *dateString) {
+            NSLog(@"%@",dateString);
+        }];
     };
 }
 @end

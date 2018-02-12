@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^HYDDatePickerConfirmHandler)(NSString *dateString);
+
 @interface HYDDatePickerView : UIView
 
-@property (nonatomic, copy) void(^HYDDatePickerViewConfimrBlock)(UIButton *sender);
+@property (nonatomic, copy) HYDDatePickerConfirmHandler confirmHandler;
 
-+ (instancetype)datePickerView;
++ (HYDDatePickerView *)datePickerView;
+- (void)showInView:(UIView *)view handler:(HYDDatePickerConfirmHandler)confirmHandler;
 
 @end
