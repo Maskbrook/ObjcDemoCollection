@@ -82,7 +82,7 @@
 - (void)OCGetJsInsertImage
 {
     NSDictionary *dict = @{
-                           @"url" : @"http://upload-images.jianshu.io/upload_images/1268909-0e394c67e1ce6666.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240",
+                           @"url" : @"https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=049102e10af431ada8df4b6b2a5fc7ca/77c6a7efce1b9d164bdc7d12f5deb48f8c5464ae.jpg",
                            };
     [self.bridge callHandler:@"insertImgToWebPage" data:dict responseCallback:^(id responseData) {
         NSLog(@"======");
