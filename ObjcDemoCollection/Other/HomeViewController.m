@@ -12,7 +12,6 @@
 #import "CustomViewsController.h"
 #import "UtilityTableViewController.h"
 #import "AnimiationTableViewController.h"
-#import "InsideObjCTableViewController.h"
 #import "ArchitectureController.h"
 
 @interface HomeViewController ()
@@ -26,11 +25,10 @@
     [super viewDidLoad];
     self.title = @"首页";
     self.items = @[
-                   @{@"title" : @"Custom Views", @"controller" : [CustomViewsController new]},
-                   @{@"title" : @"Utilities", @"controller" : [UtilityTableViewController new]},
-                   @{@"title" : @"Animations", @"controller" : [AnimiationTableViewController new]},
-                   @{@"title" : @"Inside Objc", @"controller" : [InsideObjCTableViewController new]},
-                   @{@"title" : @"Architecture", @"controller" : [ArchitectureController new]},
+                   @{@"title" : @"自定义视图", @"controller" : [CustomViewsController new]},
+                   @{@"title" : @"工具", @"controller" : [UtilityTableViewController new]},
+                   @{@"title" : @"动画", @"controller" : [AnimiationTableViewController new]},
+                   @{@"title" : @"结构", @"controller" : [ArchitectureController new]},
                    
                    ].mutableCopy;
 }

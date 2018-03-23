@@ -1,41 +1,64 @@
 //
-//  NetsViewController.m
+//  ToutiaoViewController.m
 //  PPScrollingTagsDemo
 //
-//  Created by jiabaozhang on 17/5/17.
+//  Created by jiabaozhang on 17/5/16.
 //  Copyright © 2017年 PPTV聚力. All rights reserved.
 //
 
-#import "NetsViewController.h"
+#import "ToutiaoViewController.h"
 #import "ChildViewController.h"
+#import "UIView+Frame.h"
 
-@interface NetsViewController ()
+@interface ToutiaoViewController ()
 
 @end
 
-@implementation NetsViewController
+@implementation ToutiaoViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor redColor];
     
-    // 初始化子控件
+    // 添加子控制器
     [self setUpAllViewController];
     // 设置frame
     __typeof(self) weakSelf = self;
     self.SetContentFrameBlock = ^void(UIView *contentView){
         CGFloat contentX = 0;
-        CGFloat contentY = 64;
+        CGFloat contentY = 100;
         CGFloat contentW = weakSelf.view.bounds.size.width;
         CGFloat contentH = weakSelf.view.bounds.size.height- contentY;
         contentView.frame = CGRectMake(contentX, contentY, contentW, contentH);
     };
-    self.displayCoverView = true;
+    // 是否显示底部指示器
     self.displayUnderlineView = true;
 }
 
 // 添加所有子控制器
 - (void)setUpAllViewController
 {
+    // 段子
+    ChildViewController *wordVc1 = [[ChildViewController alloc] init];
+    wordVc1.title = @"社会";
+    [self addChildViewController:wordVc1];
+    
+    // 段子
+    ChildViewController *wordVc2 = [[ChildViewController alloc] init];
+    wordVc2.title = @"体育";
+    [self addChildViewController:wordVc2];
+    
+    // 视频
+    ChildViewController *videoVc = [[ChildViewController alloc] init];
+    videoVc.title = @"视频";
+    [self addChildViewController:videoVc];
+    
+    // 声音
+    ChildViewController *voiceVc = [[ChildViewController alloc] init];
+    voiceVc.title = @"电台";
+    [self addChildViewController:voiceVc];
+    
     ChildViewController *wordVc4 = [[ChildViewController alloc] init];
     wordVc4.title = @"热点新闻";
     [self addChildViewController:wordVc4];
@@ -54,7 +77,10 @@
     ChildViewController *wordVc3 = [[ChildViewController alloc] init];
     wordVc3.title = @"NBA录像";
     [self addChildViewController:wordVc3];
+    
+    ChildViewController *wordVc5 = [[ChildViewController alloc] init];
+    wordVc5.title = @"热门";
+    [self addChildViewController:wordVc5];
 }
-
 
 @end

@@ -5,4 +5,5 @@ target 'ObjcDemoCollection' do
         pod 'Masonry'
         pod 'AFNetworking'
 	pod 'SDWebImage'
+	pod 'WebViewJavascriptBridge'
 end

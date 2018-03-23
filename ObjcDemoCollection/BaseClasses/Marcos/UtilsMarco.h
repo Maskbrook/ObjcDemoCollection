@@ -38,4 +38,31 @@
 #define kTableViewCellBgColor [UIColor whiteColor]
 #define kTableViewBgColor [UIColor whiteColor]
 
+#define SuppressPerformSelectorLeakWarning(Stuff) \
+do { \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+Stuff; \
+_Pragma("clang diagnostic pop") \
+} while (0)
+
+//适配iOS11的scrollView属性改变automaticallyAdjustsScrollViewInsets
+#define  adjustsScrollViewInsets_NO(scrollView,vc)\
+SuppressPerformSelectorLeakWarning(\
+if (@available(iOS 11.0, *)) {\
+[scrollView setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentNever];\
+} else {\
+vc.automaticallyAdjustsScrollViewInsets = NO;\
+}\
+)
+
+#define  adjustsScrollViewInsets_YES(scrollView,vc)\
+SuppressPerformSelectorLeakWarning(\
+if (@available(iOS 11.0, *)) {\
+[scrollView setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentAlways];\
+} else {\
+vc.automaticallyAdjustsScrollViewInsets = YES;\
+}\
+)
+
 #endif /* UtilsMarco_h */

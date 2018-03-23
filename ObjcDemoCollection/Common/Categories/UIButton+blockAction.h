@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void (^ButtonActionBlock)();
+typedef void (^ButtonActionBlock)(void);
 
 @interface UIButton (blockAction)
 

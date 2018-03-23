@@ -13,6 +13,7 @@
 #import "KVOTableViewController.h"
 #import "CheckAppVersionController.h"
 #import "DeviceInfoController.h"
+#import "OCJSInteractionController.h"
 
 @interface UtilityTableViewController ()
 
@@ -27,7 +28,7 @@
                    @{@"title" : @"01-KVO的几种实现", @"controller" : [KVOTableViewController new]},
                    @{@"title" : @"02-检测app版本更新", @"controller" : [CheckAppVersionController new]},
                    @{@"title" : @"03-UUID等设备信息", @"controller" : [DeviceInfoController new]},
-                   
+                   @{@"title" : @"04-OC与JS交互", @"controller" : [OCJSInteractionController new]},
                    ].mutableCopy;
 }
 
