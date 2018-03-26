@@ -98,8 +98,13 @@
 		53556EBA20689FA400ECED92 /* PopMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556EB220689FA400ECED92 /* PopMenuController.m */; };
 		53556EBB20689FA400ECED92 /* PopMenuViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556EB520689FA400ECED92 /* PopMenuViewCell.m */; };
 		53556EC12068A00200ECED92 /* PopViewCollectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556EC02068A00200ECED92 /* PopViewCollectsController.m */; };
-		53556EC52068BFC700ECED92 /* LeadingPagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556EC32068BFC700ECED92 /* LeadingPagesController.m */; };
 		53556EC92068BFCE00ECED92 /* LaunchAdsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556EC72068BFCE00ECED92 /* LaunchAdsController.m */; };
+		53556ECE2068C80B00ECED92 /* Intro_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53556ECA2068C80A00ECED92 /* Intro_3@2x.png */; };
+		53556ED02068C80B00ECED92 /* Intro_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53556ECC2068C80A00ECED92 /* Intro_1@2x.png */; };
+		53556ED12068C80B00ECED92 /* Intro_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53556ECD2068C80B00ECED92 /* Intro_2@2x.png */; };
+		53556ED72068E2C400ECED92 /* GuidePagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556ED62068E2C400ECED92 /* GuidePagesViewController.m */; };
+		53556EDA2068E30200ECED92 /* GuidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556ED92068E30200ECED92 /* GuidePageView.m */; };
+		53556EDC206905A600ECED92 /* lanuch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53556EDB206905A600ECED92 /* lanuch.jpg */; };
 		5361F115201592BB004B8189 /* AVPalyerLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5361F114201592BB004B8189 /* AVPalyerLayerDemoController.m */; };
 		5361F1172015B88E004B8189 /* Ship.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5361F1162015B88E004B8189 /* Ship.mp4 */; };
 		5361F11C2015BBEA004B8189 /* ImplicitAnimationDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5361F11B2015BBEA004B8189 /* ImplicitAnimationDemoController.m */; };
@@ -303,10 +308,16 @@
 		53556EB520689FA400ECED92 /* PopMenuViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenuViewCell.m; sourceTree = "<group>"; };
 		53556EBF2068A00200ECED92 /* PopViewCollectsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopViewCollectsController.h; sourceTree = "<group>"; };
 		53556EC02068A00200ECED92 /* PopViewCollectsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopViewCollectsController.m; sourceTree = "<group>"; };
-		53556EC32068BFC700ECED92 /* LeadingPagesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeadingPagesController.m; sourceTree = "<group>"; };
-		53556EC42068BFC700ECED92 /* LeadingPagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeadingPagesController.h; sourceTree = "<group>"; };
 		53556EC72068BFCE00ECED92 /* LaunchAdsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAdsController.m; sourceTree = "<group>"; };
 		53556EC82068BFCE00ECED92 /* LaunchAdsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAdsController.h; sourceTree = "<group>"; };
+		53556ECA2068C80A00ECED92 /* Intro_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Intro_3@2x.png"; sourceTree = "<group>"; };
+		53556ECC2068C80A00ECED92 /* Intro_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Intro_1@2x.png"; sourceTree = "<group>"; };
+		53556ECD2068C80B00ECED92 /* Intro_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Intro_2@2x.png"; sourceTree = "<group>"; };
+		53556ED52068E2C400ECED92 /* GuidePagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuidePagesViewController.h; sourceTree = "<group>"; };
+		53556ED62068E2C400ECED92 /* GuidePagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuidePagesViewController.m; sourceTree = "<group>"; };
+		53556ED82068E30200ECED92 /* GuidePageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuidePageView.h; sourceTree = "<group>"; };
+		53556ED92068E30200ECED92 /* GuidePageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuidePageView.m; sourceTree = "<group>"; };
+		53556EDB206905A600ECED92 /* lanuch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lanuch.jpg; sourceTree = "<group>"; };
 		5361F113201592BB004B8189 /* AVPalyerLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPalyerLayerDemoController.h; sourceTree = "<group>"; };
 		5361F114201592BB004B8189 /* AVPalyerLayerDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPalyerLayerDemoController.m; sourceTree = "<group>"; };
 		5361F1162015B88E004B8189 /* Ship.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ship.mp4; sourceTree = "<group>"; };
@@ -395,6 +406,10 @@
 		362AE71F2026179A00A55F05 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				53556EDB206905A600ECED92 /* lanuch.jpg */,
+				53556ECC2068C80A00ECED92 /* Intro_1@2x.png */,
+				53556ECD2068C80B00ECED92 /* Intro_2@2x.png */,
+				53556ECA2068C80A00ECED92 /* Intro_3@2x.png */,
 				362AE7C020263F7700A55F05 /* github.png */,
 				362AE75B2026289B00A55F05 /* loading.png */,
 				362AE7512026253200A55F05 /* right_menu_addFri@2x.png */,
@@ -823,8 +838,10 @@
 		53556EC22068BFC700ECED92 /* 01-引导页 */ = {
 			isa = PBXGroup;
 			children = (
-				53556EC42068BFC700ECED92 /* LeadingPagesController.h */,
-				53556EC32068BFC700ECED92 /* LeadingPagesController.m */,
+				53556ED52068E2C400ECED92 /* GuidePagesViewController.h */,
+				53556ED62068E2C400ECED92 /* GuidePagesViewController.m */,
+				53556ED82068E30200ECED92 /* GuidePageView.h */,
+				53556ED92068E30200ECED92 /* GuidePageView.m */,
 			);
 			path = "01-引导页";
 			sourceTree = "<group>";
@@ -1024,13 +1041,17 @@
 			files = (
 				5387BD232064F505003664B1 /* index.html in Resources */,
 				362AE75C2026289B00A55F05 /* loading.png in Resources */,
+				53556ED12068C80B00ECED92 /* Intro_2@2x.png in Resources */,
 				362AE723202617A100A55F05 /* Home.png in Resources */,
 				362AE7592026253200A55F05 /* right_menu_facetoface@2x.png in Resources */,
 				530ED01F1FEA04AC00D60DAA /* Info.plist in Resources */,
 				362AE7572026253200A55F05 /* right_menu_payMoney@2x.png in Resources */,
+				53556ED02068C80B00ECED92 /* Intro_1@2x.png in Resources */,
 				362AE78220262E2800A55F05 /* shops.plist in Resources */,
 				362AE7C120263F7700A55F05 /* github.png in Resources */,
+				53556EDC206905A600ECED92 /* lanuch.jpg in Resources */,
 				362AE7562026253200A55F05 /* right_menu_addFri@2x.png in Resources */,
+				53556ECE2068C80B00ECED92 /* Intro_3@2x.png in Resources */,
 				530ED01B1FEA04AC00D60DAA /* Assets.xcassets in Resources */,
 				362AE7582026253200A55F05 /* right_menu_QR@2x.png in Resources */,
 				530ED01D1FEA04AC00D60DAA /* LaunchScreen.storyboard in Resources */,
@@ -1113,6 +1134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53480002200DF5BE00F68D42 /* CAShapeLayerDemoController.m in Sources */,
+				53556EDA2068E30200ECED92 /* GuidePageView.m in Sources */,
 				362AE79720262F8900A55F05 /* ScrollingBarCollectionLayout.m in Sources */,
 				362AE7B1202636B500A55F05 /* ArchitectureController.m in Sources */,
 				53556EA420689DA800ECED92 /* LineflowController.m in Sources */,
@@ -1121,7 +1143,6 @@
 				362AE7402026224800A55F05 /* KVOTableViewController.m in Sources */,
 				5348FFF2200DF5BA00F68D42 /* Transform3DDemoController.m in Sources */,
 				53FA93371FF341C5002C8208 /* NSTimer+Helper.m in Sources */,
-				53556EC52068BFC700ECED92 /* LeadingPagesController.m in Sources */,
 				362AE76920262CBF00A55F05 /* InfiniteBannerView.m in Sources */,
 				53556EB820689FA400ECED92 /* PopMenuItem.m in Sources */,
 				5348FFF4200DF5BA00F68D42 /* ContainsPointDemoController.m in Sources */,
@@ -1188,6 +1209,7 @@
 				362AE7A42026310000A55F05 /* CheckAppVersionManager.m in Sources */,
 				53480005200DF5BE00F68D42 /* CATransformLayerDemoController.m in Sources */,
 				5348FFF0200DF5BA00F68D42 /* TransformDemoController.m in Sources */,
+				53556ED72068E2C400ECED92 /* GuidePagesViewController.m in Sources */,
 				362AE76B20262CBF00A55F05 /* InfiniteBannerViewItem.m in Sources */,
 				362AE79920262F8900A55F05 /* ChildViewController.m in Sources */,
 				53556EC12068A00200ECED92 /* PopViewCollectsController.m in Sources */,

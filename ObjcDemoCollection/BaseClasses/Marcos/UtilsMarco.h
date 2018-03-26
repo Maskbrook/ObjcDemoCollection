@@ -22,6 +22,8 @@
 #define ArrayIsNullOrEmpty(arr) (NO == [arr isKindOfClass:[NSArray class]] || [arr isKindOfClass:[NSNull class]] || [arr count] <= 0)
 
 //-------------------机型适配------------------------
+#define kScreenHeight  [[UIScreen mainScreen] bounds].size.height
+#define kScreenWidth   [[UIScreen mainScreen] bounds].size.width
 #define iPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
 #define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
 #define iPhone4or5 (iPhone4||iPhone5)

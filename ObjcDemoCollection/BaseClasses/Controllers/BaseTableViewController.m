@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
     self.tableView.rowHeight = 50.0;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 }
 
 - (void)viewWillAppear:(BOOL)animated

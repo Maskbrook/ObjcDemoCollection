@@ -9,7 +9,7 @@
 #import "ADCollectionsController.h"
 #import "BaseTableViewCell.h"
 //VC
-#import "LeadingPagesController.h"
+#import "GuidePagesViewController.h"
 #import "LaunchAdsController.h"
 
 @interface ADCollectionsController ()
@@ -23,7 +23,7 @@
     [super viewDidLoad];
     
     self.items = @[
-                   @{@"title" : @"01-引导图", @"controller" : [LeadingPagesController new]},
+                   @{@"title" : @"01-引导图", @"controller" : [GuidePagesViewController new]},
                    @{@"title" : @"02-启动广告", @"controller" : [LaunchAdsController new]},
                    ].mutableCopy;
 }
