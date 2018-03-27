@@ -107,6 +107,8 @@
 		53556EEF206A34F900ECED92 /* PopMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556EE9206A34F900ECED92 /* PopMenuItem.m */; };
 		53556EF0206A34F900ECED92 /* PopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556EEA206A34F900ECED92 /* PopMenuView.m */; };
 		53556EF1206A34F900ECED92 /* PopMenuViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556EEE206A34F900ECED92 /* PopMenuViewCell.m */; };
+		53556EF5206A3CEE00ECED92 /* CommentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556EF4206A3CEE00ECED92 /* CommentsView.m */; };
+		53556EF8206A3D0A00ECED92 /* CommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556EF7206A3D0A00ECED92 /* CommentsViewController.m */; };
 		5361F115201592BB004B8189 /* AVPalyerLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5361F114201592BB004B8189 /* AVPalyerLayerDemoController.m */; };
 		5361F1172015B88E004B8189 /* Ship.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5361F1162015B88E004B8189 /* Ship.mp4 */; };
 		5361F11C2015BBEA004B8189 /* ImplicitAnimationDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5361F11B2015BBEA004B8189 /* ImplicitAnimationDemoController.m */; };
@@ -323,6 +325,10 @@
 		53556EEC206A34F900ECED92 /* PopMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenuItem.h; sourceTree = "<group>"; };
 		53556EED206A34F900ECED92 /* PopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenuView.h; sourceTree = "<group>"; };
 		53556EEE206A34F900ECED92 /* PopMenuViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenuViewCell.m; sourceTree = "<group>"; };
+		53556EF3206A3CEE00ECED92 /* CommentsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentsView.h; sourceTree = "<group>"; };
+		53556EF4206A3CEE00ECED92 /* CommentsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentsView.m; sourceTree = "<group>"; };
+		53556EF6206A3D0A00ECED92 /* CommentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentsViewController.h; sourceTree = "<group>"; };
+		53556EF7206A3D0A00ECED92 /* CommentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentsViewController.m; sourceTree = "<group>"; };
 		5361F113201592BB004B8189 /* AVPalyerLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPalyerLayerDemoController.h; sourceTree = "<group>"; };
 		5361F114201592BB004B8189 /* AVPalyerLayerDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPalyerLayerDemoController.m; sourceTree = "<group>"; };
 		5361F1162015B88E004B8189 /* Ship.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ship.mp4; sourceTree = "<group>"; };
@@ -799,6 +805,7 @@
 		53556EA620689FA400ECED92 /* 01-弹出视图 */ = {
 			isa = PBXGroup;
 			children = (
+				53556EF2206A3CC000ECED92 /* 03-评论区 */,
 				53556EA720689FA400ECED92 /* 02-自定义datePicker */,
 				53556EAD20689FA400ECED92 /* 01-带箭头弹出菜单 */,
 				53556EBF2068A00200ECED92 /* PopViewCollectsController.h */,
@@ -869,6 +876,17 @@
 				53556EEE206A34F900ECED92 /* PopMenuViewCell.m */,
 			);
 			path = PopMenuView;
+			sourceTree = "<group>";
+		};
+		53556EF2206A3CC000ECED92 /* 03-评论区 */ = {
+			isa = PBXGroup;
+			children = (
+				53556EF3206A3CEE00ECED92 /* CommentsView.h */,
+				53556EF4206A3CEE00ECED92 /* CommentsView.m */,
+				53556EF6206A3D0A00ECED92 /* CommentsViewController.h */,
+				53556EF7206A3D0A00ECED92 /* CommentsViewController.m */,
+			);
+			path = "03-评论区";
 			sourceTree = "<group>";
 		};
 		5361F1182015BB90004B8189 /* ImplicitAnimation(隐式动画) */ = {
@@ -1218,6 +1236,7 @@
 				362AE7BE20263C2600A55F05 /* ShopTableViewCell.m in Sources */,
 				5348FFF3200DF5BA00F68D42 /* GeometryDemoController.m in Sources */,
 				362AE79A20262F8900A55F05 /* NetsViewController.m in Sources */,
+				53556EF8206A3D0A00ECED92 /* CommentsViewController.m in Sources */,
 				53556EEF206A34F900ECED92 /* PopMenuItem.m in Sources */,
 				53480003200DF5BE00F68D42 /* CAGradientLayerDemoController.m in Sources */,
 				530ED0331FEA04FD00D60DAA /* BaseViewController.m in Sources */,
@@ -1234,6 +1253,7 @@
 				362AE7362026217A00A55F05 /* CustomViewsController.m in Sources */,
 				530ED0401FEA131A00D60DAA /* AnimiationTableViewController.m in Sources */,
 				53556EF1206A34F900ECED92 /* PopMenuViewCell.m in Sources */,
+				53556EF5206A3CEE00ECED92 /* CommentsView.m in Sources */,
 				530ED01C1FEA04AC00D60DAA /* AppDelegate.m in Sources */,
 				53556EC92068BFCE00ECED92 /* LaunchAdsController.m in Sources */,
 				53556EB720689FA400ECED92 /* DatePickerViewController.m in Sources */,
