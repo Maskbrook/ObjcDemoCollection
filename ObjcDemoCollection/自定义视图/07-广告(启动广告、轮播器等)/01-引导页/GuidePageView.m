@@ -62,11 +62,11 @@
     CGFloat pageControlX = (self.bounds.size.width - pageControlW) / 2;
     CGFloat pageControlY = (self.bounds.size.height - pageControlH - 20);
     self.pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(pageControlX, pageControlY, pageControlW, pageControlH)];
-    self.pageControl.backgroundColor = [UIColor clearColor];
     self.pageControl.currentPage = 0;
     self.pageControl.numberOfPages = self.images.count;
     self.pageControl.pageIndicatorTintColor = [UIColor grayColor];
-    self.pageControl.currentPageIndicatorTintColor = [UIColor magentaColor];
+    self.pageControl.currentPageIndicatorTintColor = [UIColor whiteColor];
+    self.pageControl.transform = CGAffineTransformScale(CGAffineTransformIdentity, 1.5, 1.5); //间距和点都会变大
     [self addSubview:self.pageControl];
 }
 
@@ -87,7 +87,7 @@
         CGFloat btnW = 150;
         CGFloat btnH = 44;
         CGFloat btnX = (self.bounds.size.width - btnW) / 2;
-        CGFloat btnY = (self.bounds.size.height - btnH - 100);
+        CGFloat btnY = (self.bounds.size.height - btnH - 90);
         if (i == self.images.count - 1) {
             imgView.userInteractionEnabled = YES;
             UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hideGuidePageView)];
@@ -98,8 +98,16 @@
             self.enterButton.layer.cornerRadius = 5;
             self.enterButton.clipsToBounds = YES;
             [self.enterButton setTitle:@"立即探索" forState:UIControlStateNormal];
-            self.enterButton.backgroundColor = kThemeColor;
             [imgView addSubview:_enterButton];
+            
+            UIBezierPath *path = [UIBezierPath bezierPathWithRect:self.enterButton.bounds];
+            CAShapeLayer *layer = [CAShapeLayer layer];
+            layer.fillColor = [UIColor clearColor].CGColor;
+            layer.lineWidth = 2.0;
+            layer.strokeColor = [UIColor whiteColor].CGColor;
+            layer.path = path.CGPath;
+            [self.enterButton.layer addSublayer:layer];
+            
             WS(weakSelf);
             self.enterButton.actionBlock = ^{
                 [weakSelf hideGuidePageView];

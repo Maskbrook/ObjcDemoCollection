@@ -7,31 +7,47 @@
 //
 
 #import "LaunchAdsController.h"
+#import "LaunchAdView.h"
 
 @interface LaunchAdsController ()
+
+@property (nonatomic, strong) LaunchAdView *launchView;
 
 @end
 
 @implementation LaunchAdsController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    WS(weakSelf)
+    
+    //
+    UIButton *countButton = [[UIButton alloc] initWithFrame:CGRectMake(50, 100, 140, 50)];
+    countButton.backgroundColor = [UIColor magentaColor];
+    [countButton setTitle:@"show button" forState:UIControlStateNormal];
+    [self.view addSubview:countButton];
+    countButton.actionBlock = ^{
+        NSLog(@"====show loading page====");
+        weakSelf.launchView = [[LaunchAdView alloc] initWithFrame:self.view.bounds];
+        weakSelf.launchView.duration = 5.0;
+        weakSelf.launchView.type = LaunchTypeCountButton;
+        [[UIApplication sharedApplication].keyWindow addSubview:weakSelf.launchView];
+    };
+    
+    //
+    UIButton *countCircle = [[UIButton alloc] initWithFrame:CGRectMake(200, 100, 140, 50)];
+    countCircle.backgroundColor = [UIColor magentaColor];
+    [countCircle setTitle:@"show circle" forState:UIControlStateNormal];
+    [self.view addSubview:countCircle];
+    countCircle.actionBlock = ^{
+        NSLog(@"====show loading page====");
+        weakSelf.launchView = [[LaunchAdView alloc] initWithFrame:self.view.bounds];
+        weakSelf.launchView.duration = 5.0;
+        weakSelf.launchView.type = LaunchTypeCircle;
+        [[UIApplication sharedApplication].keyWindow addSubview:weakSelf.launchView];
+    };
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

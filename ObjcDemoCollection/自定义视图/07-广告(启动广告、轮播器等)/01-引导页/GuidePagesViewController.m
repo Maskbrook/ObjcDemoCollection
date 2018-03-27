@@ -25,11 +25,9 @@
     [self.view addSubview:showMenuButton];
     
     showMenuButton.actionBlock = ^{
-        GuidePageView *guidePageView = [[GuidePageView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight) images:@[@"Intro_1", @"Intro_2", @"Intro_3"]];
+        GuidePageView *guidePageView = [[GuidePageView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight) images:@[@"launch01", @"launch02", @"launch03", @"launch04"]];
         [[UIApplication sharedApplication].keyWindow addSubview:guidePageView];
     };
-    
-    
 }
 
 @end

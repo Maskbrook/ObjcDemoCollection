@@ -11,6 +11,8 @@
 #import "HomeViewController.h"
 #import "GuidePageView.h"
 
+#define LAST_RUN_VERSION_KEY @"last_run_version_of_application"
+
 @interface AppDelegate ()
 
 @end
@@ -31,7 +33,7 @@
 //确认引导页
 - (void)confirmGuideView
 {
-    GuidePageView *guidePageView = [[GuidePageView alloc] initWithFrame:[UIScreen mainScreen].bounds images:@[@"Intro_1", @"Intro_2", @"Intro_3"]];
+    GuidePageView *guidePageView = [[GuidePageView alloc] initWithFrame:[UIScreen mainScreen].bounds images:@[@"launch01", @"launch02", @"launch03", @"launch04"]];
     [self.window addSubview:guidePageView];
 }
 
@@ -58,13 +60,32 @@
     }];
 }
 
+//是否第一次启动
+- (BOOL)isFirstLaunch
+{
+    NSString *currentVersion = [[[NSBundle mainBundle] infoDictionary]
+                                objectForKey:@"CFBundleShortVersionString"];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSString *lastRunVersion = [defaults objectForKey:LAST_RUN_VERSION_KEY];
+    if (!lastRunVersion) {
+        [defaults setObject:currentVersion forKey:LAST_RUN_VERSION_KEY];
+        return YES;
+    } else if (![lastRunVersion isEqualToString:currentVersion]) {
+        [defaults setObject:currentVersion forKey:LAST_RUN_VERSION_KEY];
+        return YES;
+    }
+    return NO;
+}
+
 #pragma mark -  ## appdelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     //step1: 根控制器
     [self confirmRootController];
     //step2: 引导页
-    [self confirmGuideView];
+    if ([self isFirstLaunch]) {
+        [self confirmGuideView];
+    }
     //step3: launchScreen
     [self confirmLaunchScreen];
     
