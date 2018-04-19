@@ -67,6 +67,12 @@
 		530ED0381FEA10CD00D60DAA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED0371FEA10CD00D60DAA /* HomeViewController.m */; };
 		530ED03D1FEA130D00D60DAA /* UtilityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED03C1FEA130D00D60DAA /* UtilityTableViewController.m */; };
 		530ED0401FEA131A00D60DAA /* AnimiationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ED03F1FEA131A00D60DAA /* AnimiationTableViewController.m */; };
+		533B1F8F2085D5FB008A8BCC /* UIView+GetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 533B1F8E2085D5FB008A8BCC /* UIView+GetController.m */; };
+		533B1FB52088745D008A8BCC /* CellConfigTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 533B1FB42088745D008A8BCC /* CellConfigTableViewController.m */; };
+		533B1FB820887487008A8BCC /* UserInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 533B1FB720887487008A8BCC /* UserInfoTableViewCell.m */; };
+		533B1FBB2088749D008A8BCC /* UserInfoCellConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 533B1FBA2088749D008A8BCC /* UserInfoCellConfig.m */; };
+		533B1FBE2088AD96008A8BCC /* popup_arrow_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 533B1FBC2088AD96008A8BCC /* popup_arrow_right@2x.png */; };
+		533B1FBF2088AD96008A8BCC /* popup_arrow_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 533B1FBD2088AD96008A8BCC /* popup_arrow_right@3x.png */; };
 		533D5A0320119A130002D3C1 /* CAEmitterLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D5A0220119A130002D3C1 /* CAEmitterLayerDemoController.m */; };
 		533D5A062011A0690002D3C1 /* CAEAGLLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D5A052011A0690002D3C1 /* CAEAGLLayerDemoController.m */; };
 		53480002200DF5BE00F68D42 /* CAShapeLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5348FFF8200DF5BE00F68D42 /* CAShapeLayerDemoController.m */; };
@@ -250,6 +256,16 @@
 		530ED03C1FEA130D00D60DAA /* UtilityTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilityTableViewController.m; sourceTree = "<group>"; };
 		530ED03E1FEA131A00D60DAA /* AnimiationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimiationTableViewController.h; sourceTree = "<group>"; };
 		530ED03F1FEA131A00D60DAA /* AnimiationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimiationTableViewController.m; sourceTree = "<group>"; };
+		533B1F8D2085D5FB008A8BCC /* UIView+GetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+GetController.h"; sourceTree = "<group>"; };
+		533B1F8E2085D5FB008A8BCC /* UIView+GetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+GetController.m"; sourceTree = "<group>"; };
+		533B1FB32088745D008A8BCC /* CellConfigTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellConfigTableViewController.h; sourceTree = "<group>"; };
+		533B1FB42088745D008A8BCC /* CellConfigTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellConfigTableViewController.m; sourceTree = "<group>"; };
+		533B1FB620887487008A8BCC /* UserInfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoTableViewCell.h; sourceTree = "<group>"; };
+		533B1FB720887487008A8BCC /* UserInfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoTableViewCell.m; sourceTree = "<group>"; };
+		533B1FB92088749D008A8BCC /* UserInfoCellConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoCellConfig.h; sourceTree = "<group>"; };
+		533B1FBA2088749D008A8BCC /* UserInfoCellConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoCellConfig.m; sourceTree = "<group>"; };
+		533B1FBC2088AD96008A8BCC /* popup_arrow_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popup_arrow_right@2x.png"; sourceTree = "<group>"; };
+		533B1FBD2088AD96008A8BCC /* popup_arrow_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popup_arrow_right@3x.png"; sourceTree = "<group>"; };
 		533D5A0120119A130002D3C1 /* CAEmitterLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerDemoController.h; sourceTree = "<group>"; };
 		533D5A0220119A130002D3C1 /* CAEmitterLayerDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerDemoController.m; sourceTree = "<group>"; };
 		533D5A042011A0690002D3C1 /* CAEAGLLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAEAGLLayerDemoController.h; sourceTree = "<group>"; };
@@ -417,6 +433,8 @@
 		362AE71F2026179A00A55F05 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				533B1FBC2088AD96008A8BCC /* popup_arrow_right@2x.png */,
+				533B1FBD2088AD96008A8BCC /* popup_arrow_right@3x.png */,
 				53556EE1206A344800ECED92 /* launch01.png */,
 				53556EE2206A344800ECED92 /* launch02.png */,
 				53556EE0206A344800ECED92 /* launch03.png */,
@@ -535,6 +553,7 @@
 		362AE7AE2026369F00A55F05 /* 结构 */ = {
 			isa = PBXGroup;
 			children = (
+				533B1FB22088743E008A8BCC /* 02-cellConfig */,
 				362AE7B22026394700A55F05 /* 01-TableView的MVVM模式 */,
 				362AE7AF202636B500A55F05 /* ArchitectureController.h */,
 				362AE7B0202636B500A55F05 /* ArchitectureController.m */,
@@ -702,6 +721,19 @@
 				530ED03F1FEA131A00D60DAA /* AnimiationTableViewController.m */,
 			);
 			path = "动画";
+			sourceTree = "<group>";
+		};
+		533B1FB22088743E008A8BCC /* 02-cellConfig */ = {
+			isa = PBXGroup;
+			children = (
+				533B1FB32088745D008A8BCC /* CellConfigTableViewController.h */,
+				533B1FB42088745D008A8BCC /* CellConfigTableViewController.m */,
+				533B1FB620887487008A8BCC /* UserInfoTableViewCell.h */,
+				533B1FB720887487008A8BCC /* UserInfoTableViewCell.m */,
+				533B1FB92088749D008A8BCC /* UserInfoCellConfig.h */,
+				533B1FBA2088749D008A8BCC /* UserInfoCellConfig.m */,
+			);
+			path = "02-cellConfig";
 			sourceTree = "<group>";
 		};
 		5348FFDE200DF5BA00F68D42 /* Basic */ = {
@@ -947,6 +979,8 @@
 			children = (
 				362AE75D20262C8E00A55F05 /* UIView+Frame.h */,
 				362AE75E20262C8E00A55F05 /* UIView+Frame.m */,
+				533B1F8D2085D5FB008A8BCC /* UIView+GetController.h */,
+				533B1F8E2085D5FB008A8BCC /* UIView+GetController.m */,
 				362AE74F202623F700A55F05 /* UIButton+blockAction.h */,
 				362AE74E202623F700A55F05 /* UIButton+blockAction.m */,
 				53FA93351FF341C5002C8208 /* NSTimer+Helper.h */,
@@ -1087,10 +1121,12 @@
 				53556EDC206905A600ECED92 /* lanuch.jpg in Resources */,
 				362AE7562026253200A55F05 /* right_menu_addFri@2x.png in Resources */,
 				53556EE4206A344800ECED92 /* launch03.png in Resources */,
+				533B1FBE2088AD96008A8BCC /* popup_arrow_right@2x.png in Resources */,
 				530ED01B1FEA04AC00D60DAA /* Assets.xcassets in Resources */,
 				362AE7582026253200A55F05 /* right_menu_QR@2x.png in Resources */,
 				530ED01D1FEA04AC00D60DAA /* LaunchScreen.storyboard in Resources */,
 				362AE75A2026253200A55F05 /* right_menu_multichat@2x.png in Resources */,
+				533B1FBF2088AD96008A8BCC /* popup_arrow_right@3x.png in Resources */,
 				362AE722202617A100A55F05 /* Login.png in Resources */,
 				5361F1172015B88E004B8189 /* Ship.mp4 in Resources */,
 			);
@@ -1191,9 +1227,11 @@
 				5348FFF1200DF5BA00F68D42 /* MaskLayerDemoController.m in Sources */,
 				530ED03D1FEA130D00D60DAA /* UtilityTableViewController.m in Sources */,
 				530ED0311FEA04FD00D60DAA /* BaseTabBarController.m in Sources */,
+				533B1FB820887487008A8BCC /* UserInfoTableViewCell.m in Sources */,
 				53480006200DF5BE00F68D42 /* TextLayerLabel.m in Sources */,
 				53556EBA20689FA400ECED92 /* PopMenuController.m in Sources */,
 				53556EA120689DA800ECED92 /* WaterflowShopData.m in Sources */,
+				533B1F8F2085D5FB008A8BCC /* UIView+GetController.m in Sources */,
 				53E73E6E1FF4BFD900EA5F7C /* CoreAnimationBasicController.m in Sources */,
 				53556EA520689DA800ECED92 /* PPLineflowLayout.m in Sources */,
 				530ED0301FEA04FD00D60DAA /* BaseNavigationController.m in Sources */,
@@ -1230,6 +1268,7 @@
 				530ED0341FEA04FD00D60DAA /* BaseTableViewCell.m in Sources */,
 				362AE72F202619B000A55F05 /* SpinnerLayer.m in Sources */,
 				530ED0381FEA10CD00D60DAA /* HomeViewController.m in Sources */,
+				533B1FB52088745D008A8BCC /* CellConfigTableViewController.m in Sources */,
 				530ED0321FEA04FD00D60DAA /* BaseTableViewController.m in Sources */,
 				362AE7AC2026310400A55F05 /* PPDeviceInfo.m in Sources */,
 				362AE732202619C700A55F05 /* SpinnerTransition.m in Sources */,
@@ -1239,6 +1278,7 @@
 				53556EF8206A3D0A00ECED92 /* CommentsViewController.m in Sources */,
 				53556EEF206A34F900ECED92 /* PopMenuItem.m in Sources */,
 				53480003200DF5BE00F68D42 /* CAGradientLayerDemoController.m in Sources */,
+				533B1FBB2088749D008A8BCC /* UserInfoCellConfig.m in Sources */,
 				530ED0331FEA04FD00D60DAA /* BaseViewController.m in Sources */,
 				362AE7B52026398000A55F05 /* TableViewMVVMController.m in Sources */,
 				362AE75F20262C8E00A55F05 /* UIView+Frame.m in Sources */,

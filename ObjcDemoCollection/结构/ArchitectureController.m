@@ -9,6 +9,7 @@
 #import "ArchitectureController.h"
 #import "BaseTableViewCell.h"
 #import "TableViewMVVMController.h"
+#import "CellConfigTableViewController.h"
 
 @interface ArchitectureController ()
 
@@ -21,6 +22,7 @@
     [super viewDidLoad];
     self.items = @[
                    @{@"title" : @"01-tableView的MVVM设计模式", @"controller" : [TableViewMVVMController new]},
+                   @{@"title" : @"02-config配置cell数据", @"controller" : [CellConfigTableViewController new]},
                    
                    ].mutableCopy;
 }

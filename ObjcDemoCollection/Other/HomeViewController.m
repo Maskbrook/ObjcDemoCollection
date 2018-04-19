@@ -14,6 +14,7 @@
 #import "AnimiationTableViewController.h"
 #import "ArchitectureController.h"
 
+
 @interface HomeViewController ()
 
 @end
