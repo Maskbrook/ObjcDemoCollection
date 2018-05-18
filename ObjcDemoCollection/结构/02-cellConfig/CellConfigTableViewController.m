@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.tableView.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
 }
 
 #pragma mark - Table view data source
@@ -44,7 +45,7 @@
 - (NSArray *)dataSource
 {
     if (_dataSource == nil) {
-        _dataSource = [UserInfoCellConfig getConfig];
+        _dataSource = [UserInfoCellConfig defaultConfig];
     }
     return _dataSource;
 }

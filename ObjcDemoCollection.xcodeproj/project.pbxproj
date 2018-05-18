@@ -126,6 +126,10 @@
 		53B298882010B6210041C937 /* CAScrollLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B298872010B6210041C937 /* CAScrollLayerDemoController.m */; };
 		53E73E6E1FF4BFD900EA5F7C /* CoreAnimationBasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E73E611FF4BFD900EA5F7C /* CoreAnimationBasicController.m */; };
 		53FA93371FF341C5002C8208 /* NSTimer+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FA93361FF341C5002C8208 /* NSTimer+Helper.m */; };
+		53FAFBDB20AD61BD0044C79A /* CommonFuctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAFBDA20AD61BD0044C79A /* CommonFuctions.m */; };
+		53FAFC1320AEB1970044C79A /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAFC1220AEB1970044C79A /* BaseWebViewController.m */; };
+		53FAFC1620AEB30E0044C79A /* TestWebViewTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAFC1520AEB30E0044C79A /* TestWebViewTableController.m */; };
+		53FAFC1920AEB5F90044C79A /* BaiduWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAFC1820AEB5F90044C79A /* BaiduWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -365,6 +369,14 @@
 		53E73E611FF4BFD900EA5F7C /* CoreAnimationBasicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationBasicController.m; sourceTree = "<group>"; };
 		53FA93351FF341C5002C8208 /* NSTimer+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Helper.h"; sourceTree = "<group>"; };
 		53FA93361FF341C5002C8208 /* NSTimer+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Helper.m"; sourceTree = "<group>"; };
+		53FAFBD920AD61BD0044C79A /* CommonFuctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonFuctions.h; sourceTree = "<group>"; };
+		53FAFBDA20AD61BD0044C79A /* CommonFuctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonFuctions.m; sourceTree = "<group>"; };
+		53FAFC1120AEB1970044C79A /* BaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWebViewController.h; sourceTree = "<group>"; };
+		53FAFC1220AEB1970044C79A /* BaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWebViewController.m; sourceTree = "<group>"; };
+		53FAFC1420AEB30E0044C79A /* TestWebViewTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestWebViewTableController.h; sourceTree = "<group>"; };
+		53FAFC1520AEB30E0044C79A /* TestWebViewTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestWebViewTableController.m; sourceTree = "<group>"; };
+		53FAFC1720AEB5F90044C79A /* BaiduWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiduWebViewController.h; sourceTree = "<group>"; };
+		53FAFC1820AEB5F90044C79A /* BaiduWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduWebViewController.m; sourceTree = "<group>"; };
 		7DB454C7A311C49ED8F062AA /* Pods-ObjcDemoCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcDemoCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcDemoCollection/Pods-ObjcDemoCollection.release.xcconfig"; sourceTree = "<group>"; };
 		BA324A2B3074E5DC13E3B991 /* libPods-ObjcDemoCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjcDemoCollection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -601,6 +613,7 @@
 		530ECFDA1FEA03EA00D60DAA /* ObjcDemoCollection */ = {
 			isa = PBXGroup;
 			children = (
+				53FAFC1020AEB1880044C79A /* webView */,
 				530ED0391FEA12E300D60DAA /* 工具 */,
 				530ED03A1FEA12F200D60DAA /* 动画 */,
 				362AE7AE2026369F00A55F05 /* 结构 */,
@@ -702,6 +715,7 @@
 		530ED0391FEA12E300D60DAA /* 工具 */ = {
 			isa = PBXGroup;
 			children = (
+				53FAFBD820AD60620044C79A /* 05-工具函数 */,
 				5387BD1E2064F3C4003664B1 /* 04-与JS交互 */,
 				362AE7A72026310400A55F05 /* 03-系统信息 */,
 				362AE79D2026310000A55F05 /* 02-新版本检测 */,
@@ -989,6 +1003,28 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		53FAFBD820AD60620044C79A /* 05-工具函数 */ = {
+			isa = PBXGroup;
+			children = (
+				53FAFBD920AD61BD0044C79A /* CommonFuctions.h */,
+				53FAFBDA20AD61BD0044C79A /* CommonFuctions.m */,
+			);
+			path = "05-工具函数";
+			sourceTree = "<group>";
+		};
+		53FAFC1020AEB1880044C79A /* webView */ = {
+			isa = PBXGroup;
+			children = (
+				53FAFC1420AEB30E0044C79A /* TestWebViewTableController.h */,
+				53FAFC1520AEB30E0044C79A /* TestWebViewTableController.m */,
+				53FAFC1120AEB1970044C79A /* BaseWebViewController.h */,
+				53FAFC1220AEB1970044C79A /* BaseWebViewController.m */,
+				53FAFC1720AEB5F90044C79A /* BaiduWebViewController.h */,
+				53FAFC1820AEB5F90044C79A /* BaiduWebViewController.m */,
+			);
+			path = webView;
+			sourceTree = "<group>";
+		};
 		C9DA18C4132D7F10652A7DD1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1009,8 +1045,6 @@
 				530ECFD41FEA03E900D60DAA /* Sources */,
 				530ECFD51FEA03E900D60DAA /* Frameworks */,
 				530ECFD61FEA03E900D60DAA /* Resources */,
-				DE90667EC9C070534A777B2C /* [CP] Embed Pods Frameworks */,
-				C3C409980CEE7903C54F3B41 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1167,36 +1201,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C3C409980CEE7903C54F3B41 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjcDemoCollection/Pods-ObjcDemoCollection-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DE90667EC9C070534A777B2C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjcDemoCollection/Pods-ObjcDemoCollection-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1214,6 +1218,7 @@
 				362AE7402026224800A55F05 /* KVOTableViewController.m in Sources */,
 				5348FFF2200DF5BA00F68D42 /* Transform3DDemoController.m in Sources */,
 				53FA93371FF341C5002C8208 /* NSTimer+Helper.m in Sources */,
+				53FAFC1320AEB1970044C79A /* BaseWebViewController.m in Sources */,
 				362AE76920262CBF00A55F05 /* InfiniteBannerView.m in Sources */,
 				5348FFF4200DF5BA00F68D42 /* ContainsPointDemoController.m in Sources */,
 				362AE7A62026310000A55F05 /* AppstoreInfo.m in Sources */,
@@ -1231,6 +1236,7 @@
 				53480006200DF5BE00F68D42 /* TextLayerLabel.m in Sources */,
 				53556EBA20689FA400ECED92 /* PopMenuController.m in Sources */,
 				53556EA120689DA800ECED92 /* WaterflowShopData.m in Sources */,
+				53FAFBDB20AD61BD0044C79A /* CommonFuctions.m in Sources */,
 				533B1F8F2085D5FB008A8BCC /* UIView+GetController.m in Sources */,
 				53E73E6E1FF4BFD900EA5F7C /* CoreAnimationBasicController.m in Sources */,
 				53556EA520689DA800ECED92 /* PPLineflowLayout.m in Sources */,
@@ -1277,6 +1283,7 @@
 				362AE79A20262F8900A55F05 /* NetsViewController.m in Sources */,
 				53556EF8206A3D0A00ECED92 /* CommentsViewController.m in Sources */,
 				53556EEF206A34F900ECED92 /* PopMenuItem.m in Sources */,
+				53FAFC1920AEB5F90044C79A /* BaiduWebViewController.m in Sources */,
 				53480003200DF5BE00F68D42 /* CAGradientLayerDemoController.m in Sources */,
 				533B1FBB2088749D008A8BCC /* UserInfoCellConfig.m in Sources */,
 				530ED0331FEA04FD00D60DAA /* BaseViewController.m in Sources */,
@@ -1284,6 +1291,7 @@
 				362AE75F20262C8E00A55F05 /* UIView+Frame.m in Sources */,
 				362AE7A42026310000A55F05 /* CheckAppVersionManager.m in Sources */,
 				53480005200DF5BE00F68D42 /* CATransformLayerDemoController.m in Sources */,
+				53FAFC1620AEB30E0044C79A /* TestWebViewTableController.m in Sources */,
 				5348FFF0200DF5BA00F68D42 /* TransformDemoController.m in Sources */,
 				53556ED72068E2C400ECED92 /* GuidePagesViewController.m in Sources */,
 				362AE76B20262CBF00A55F05 /* InfiniteBannerViewItem.m in Sources */,

@@ -48,7 +48,7 @@
     
     for (UIView *subView in controller.view.subviews) {
         if ([subView isKindOfClass:[UILabel class]]) {
-            NSLog(@"=====%@=====",((UILabel *)subView).text);
+//            NSLog(@"=====%@=====",((UILabel *)subView).text);
         }
     }
     
