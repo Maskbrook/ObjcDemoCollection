@@ -1,26 +1,27 @@
 //
-//  TestWebViewTableController.m
+//  CodeAnalysisViewController.m
 //  ObjcDemoCollection
 //
-//  Created by jiabaozhang on 2018/5/18.
+//  Created by jiabaozhang on 2018/5/21.
 //  Copyright © 2018年 jiabaozhang. All rights reserved.
 //
 
-#import "TestWebViewTableController.h"
+#import "CodeAnalysisViewController.h"
 #import "BaseTableViewCell.h"
-#import "BaiduWebViewController.h"
+#import "MasonryViewController.h"
 
-@interface TestWebViewTableController ()
+@interface CodeAnalysisViewController ()
 
 @end
 
-@implementation TestWebViewTableController
+@implementation CodeAnalysisViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"首页";
     self.items = @[
-                   @{@"title" : @"01-biadu", @"controller" : [[BaiduWebViewController alloc] initWithNavTitle:@"哈哈" webUrl:@"https://www.baidu.com/"]},
+                   @{@"title" : @"Masonry", @"controller" : [MasonryViewController new]},
                    ].mutableCopy;
 }
 
@@ -33,7 +34,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     BaseTableViewCell *cell = [BaseTableViewCell cellWithTableView:tableView];
-    cell.nameLabel.text = [[self.items objectAtIndex:indexPath.row] valueForKey:@"title"];
+    cell.nameLabel.text = [self.items[indexPath.row] valueForKey:@"title"];
     return cell;
 }
 
@@ -42,6 +43,5 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     [self pushViewControllerWithIndexPath:indexPath];
 }
-
 
 @end

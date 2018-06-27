@@ -11,7 +11,6 @@
 @protocol WebViwewProtocol <NSObject>
 //请求Url结果
 - (void)requestWebUrlResult:(void(^)(BOOL succ, NSString *urlString))block;
-
 @end
 
 @interface BaseWebViewController : UIViewController

@@ -262,6 +262,8 @@ static CGFloat const margin = 20.0;
     
     // 点击label事件完成
     self.isSelectingLabel = false;
+    
+    [self scrollViewDidEndDecelerating:self.contentScrollView];
 }
 
 /**
@@ -440,6 +442,7 @@ static CGFloat const margin = 20.0;
     // 记录上一次的偏移量
     _lastOffsetX = offsetX;
 }
+
 
 /**
  *  滚动完毕就会调用
