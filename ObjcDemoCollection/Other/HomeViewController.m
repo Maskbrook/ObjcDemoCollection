@@ -13,6 +13,9 @@
 #import "UtilityTableViewController.h"
 #import "AnimiationTableViewController.h"
 #import "ArchitectureController.h"
+#import "TestWebViewTableController.h"
+#import "CodeAnalysisViewController.h"
+
 
 @interface HomeViewController ()
 
@@ -29,6 +32,8 @@
                    @{@"title" : @"工具", @"controller" : [UtilityTableViewController new]},
                    @{@"title" : @"动画", @"controller" : [AnimiationTableViewController new]},
                    @{@"title" : @"结构", @"controller" : [ArchitectureController new]},
+                   @{@"title" : @"webView", @"controller" : [TestWebViewTableController new]},
+                   @{@"title" : @"源码", @"controller" : [CodeAnalysisViewController new]},
                    
                    ].mutableCopy;
 }

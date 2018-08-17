@@ -25,9 +25,9 @@
 
 - (void)checkAppVersion
 {
-    [CheckAppVersionManager checkNewEditionWithAppID:@"438426078" containCtrl:self];
+    [CheckAppVersionManager checkNewEditionWithAppID:@"1142110895" containCtrl:self];
     
-//    [CheckAppVersionManager checkNewEditionWithAppID:@"438426078" CustomAlert:^(AppstoreInfo *appInfo) {
+//    [CheckAppVersionManager checkNewEditionWithAppID:@"1142110895" CustomAlert:^(AppstoreInfo *appInfo) {
 //        // 在这里使用自定义的提示框
 //        NSLog(@"AppstoreInfo : %@", [appInfo description]);
 //    }];

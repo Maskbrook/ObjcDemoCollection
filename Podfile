@@ -3,6 +3,7 @@
 target 'ObjcDemoCollection' do
         pod 'YYModel'
         pod 'Masonry'
+	pod 'MBProgressHUD'
         pod 'AFNetworking'
 	pod 'SDWebImage'
 	pod 'WebViewJavascriptBridge'

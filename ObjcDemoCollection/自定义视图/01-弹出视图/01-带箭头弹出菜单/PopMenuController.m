@@ -9,7 +9,6 @@
 #import "PopMenuController.h"
 #import "PopMenuItem.h"
 #import "PopMenuView.h"
-#import "UIButton+blockAction.h"
 
 @interface PopMenuController ()
 

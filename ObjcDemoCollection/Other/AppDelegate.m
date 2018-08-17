@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "BaseNavigationController.h"
 #import "HomeViewController.h"
+#import "GuidePageView.h"
+
+#define LAST_RUN_VERSION_KEY @"last_run_version_of_application"
 
 @interface AppDelegate ()
 
@@ -16,14 +19,76 @@
 
 @implementation AppDelegate
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+#pragma mark - ## private methods
+//确认根控制器
+- (void)confirmRootController
 {
     HomeViewController *home = [[HomeViewController alloc] init];
     BaseNavigationController *nav = [[BaseNavigationController alloc] initWithRootViewController:home];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
+}
+
+//确认引导页
+- (void)confirmGuideView
+{
+    GuidePageView *guidePageView = [[GuidePageView alloc] initWithFrame:[UIScreen mainScreen].bounds images:@[@"launch01", @"launch02", @"launch03", @"launch04"]];
+    [self.window addSubview:guidePageView];
+}
+
+//确认launchScreen样式
+- (void)confirmLaunchScreen
+{
+    UIViewController *controller = [[UIStoryboard storyboardWithName:@"LaunchScreen" bundle:nil] instantiateViewControllerWithIdentifier:@"LaunchScreen"];
+    
+    UIWindow *mainWindow = [UIApplication sharedApplication].keyWindow;
+    [mainWindow addSubview:controller.view];
+    [self.window bringSubviewToFront:controller.view];
+    
+    for (UIView *subView in controller.view.subviews) {
+        if ([subView isKindOfClass:[UILabel class]]) {
+//            NSLog(@"=====%@=====",((UILabel *)subView).text);
+        }
+    }
+    
+    [UIView animateWithDuration:0.35 delay:3.0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
+        controller.view.alpha = 0.0f;
+        controller.view.layer.transform = CATransform3DScale(CATransform3DIdentity, 2.0f, 2.0f, 1.0f);
+    } completion:^(BOOL finished) {
+        [controller.view removeFromSuperview];
+    }];
+}
+
+//是否第一次启动
+- (BOOL)isFirstLaunch
+{
+    NSString *currentVersion = [[[NSBundle mainBundle] infoDictionary]
+                                objectForKey:@"CFBundleShortVersionString"];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSString *lastRunVersion = [defaults objectForKey:LAST_RUN_VERSION_KEY];
+    if (!lastRunVersion) {
+        [defaults setObject:currentVersion forKey:LAST_RUN_VERSION_KEY];
+        return YES;
+    } else if (![lastRunVersion isEqualToString:currentVersion]) {
+        [defaults setObject:currentVersion forKey:LAST_RUN_VERSION_KEY];
+        return YES;
+    }
+    return NO;
+}
+
+#pragma mark -  ## appdelegate
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    //step1: 根控制器
+    [self confirmRootController];
+    //step2: 引导页
+    if ([self isFirstLaunch]) {
+        [self confirmGuideView];
+    }
+    //step3: launchScreen
+    [self confirmLaunchScreen];
+    
     return YES;
 }
 
