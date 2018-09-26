@@ -65,13 +65,15 @@ static NSString * const reuseIdentifier = @"reuseIdentifier";
     collectionView.delegate = self;
     collectionView.pagingEnabled = true;
     collectionView.showsHorizontalScrollIndicator = false;
+    collectionView.layer.cornerRadius = 10;
+    collectionView.clipsToBounds = YES;
     [self addSubview:collectionView];
     _collectionView = collectionView;
     
     UIPageControl *pageControl = [[UIPageControl alloc] init];
     pageControl.userInteractionEnabled = false;
-    pageControl.pageIndicatorTintColor = [UIColor grayColor];
-    pageControl.currentPageIndicatorTintColor = [UIColor whiteColor];
+    pageControl.pageIndicatorTintColor = [UIColor redColor];
+    pageControl.currentPageIndicatorTintColor = [UIColor blueColor];
     // 可以通过KVC设置pageControl指示器样式
 //    [pageControl setValue:[UIImage imageNamed:@""] forKeyPath:@"_pageImage"];
 //    [pageControl setValue:[UIImage imageNamed:@""] forKeyPath:@"_currentPageImage"];

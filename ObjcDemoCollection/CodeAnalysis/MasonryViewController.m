@@ -83,7 +83,7 @@
 //        make.height.equalTo(@(subview_height));
 //    }];
 
-    [mArray mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:10 leadSpacing:10 tailSpacing:10];
+    [mArray mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:10 leadSpacing:30 tailSpacing:30];
     [mArray mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.view.mas_top).offset(100);
         make.height.equalTo(@(100));

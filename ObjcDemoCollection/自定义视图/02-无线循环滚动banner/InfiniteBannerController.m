@@ -74,13 +74,10 @@
     self.tableView.tableHeaderView = header;
     
     NSArray *urls = @[
-                      [NSURL URLWithString:@"http://imagemg.cnpp.cn/upload/images/20161028/10280428816_600x400.jpg"],
-                      [NSURL URLWithString:@"http://imagemg.cnpp.cn/upload/images/20161028/10413758057_600x400.jpg"],
-                      [NSURL URLWithString:@"http://imagemg.cnpp.cn/upload/images/20161028/10311484626_600x400.jpg"],
-                      [NSURL URLWithString:@"http://imagemg.cnpp.cn/upload/images/20161028/10325445758_600x400.jpg"],
-                      [NSURL URLWithString:@"http://imagemg.cnpp.cn/upload/images/20161028/10431342856_600x400.jpg"],
-                      [NSURL URLWithString:@"http://imagemg.cnpp.cn/upload/images/20161028/10383862642_600x400.jpg"],
-                      [NSURL URLWithString:@"http://imagemg.cnpp.cn/upload/images/20161028/10362254466_600x400.jpg"],
+                      [NSURL URLWithString:@"http://download.credithc.com/hengyidai/adb9f5e9de674e22a25ffab39597f2ce.png"],
+                      [NSURL URLWithString:@"http://download.credithc.com/hengyidai/0ede5441291c430280efe0c7ad8813a4.png"],
+                      [NSURL URLWithString:@"http://download.credithc.com/hengyidai/d956ca40a6034e7cb80fc5cd4fa83a03.png"],
+                      [NSURL URLWithString:@"http://download.credithc.com/hengyidai/9b7188f14cc74e9fa3a4d318f51bc621.png"],
                       ];
     
     InfiniteBannerView *bannerView = [[InfiniteBannerView alloc] initWithFrame:header.bounds];
@@ -98,15 +95,6 @@
                                  NSLog(@"%@", item.title);
                              }],
                              [InfiniteBannerViewItem itemWithImageUrl:urls[3] title:@"魔术师" handelr:^(InfiniteBannerViewItem *item) {
-                                 NSLog(@"%@", item.title);
-                             }],
-                             [InfiniteBannerViewItem itemWithImageUrl:urls[4] title:@"拉塞尔" handelr:^(InfiniteBannerViewItem *item) {
-                                 NSLog(@"%@", item.title);
-                             }],
-                             [InfiniteBannerViewItem itemWithImageUrl:urls[5] title:@"邓肯" handelr:^(InfiniteBannerViewItem *item) {
-                                 NSLog(@"%@", item.title);
-                             }],
-                             [InfiniteBannerViewItem itemWithImageUrl:urls[6] title:@"张伯伦" handelr:^(InfiniteBannerViewItem *item) {
                                  NSLog(@"%@", item.title);
                              }],
                              
