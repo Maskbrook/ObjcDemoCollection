@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseTableViewCell.h"
 
 @interface BaseTableViewController : UITableViewController
 

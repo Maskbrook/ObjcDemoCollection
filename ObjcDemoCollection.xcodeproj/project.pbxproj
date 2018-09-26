@@ -113,14 +113,14 @@
 		53556EEF206A34F900ECED92 /* PopMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556EE9206A34F900ECED92 /* PopMenuItem.m */; };
 		53556EF0206A34F900ECED92 /* PopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556EEA206A34F900ECED92 /* PopMenuView.m */; };
 		53556EF1206A34F900ECED92 /* PopMenuViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556EEE206A34F900ECED92 /* PopMenuViewCell.m */; };
-		53556EF5206A3CEE00ECED92 /* CommentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556EF4206A3CEE00ECED92 /* CommentsView.m */; };
-		53556EF8206A3D0A00ECED92 /* CommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53556EF7206A3D0A00ECED92 /* CommentsViewController.m */; };
 		5361F115201592BB004B8189 /* AVPalyerLayerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5361F114201592BB004B8189 /* AVPalyerLayerDemoController.m */; };
 		5361F1172015B88E004B8189 /* Ship.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5361F1162015B88E004B8189 /* Ship.mp4 */; };
 		5361F11C2015BBEA004B8189 /* ImplicitAnimationDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5361F11B2015BBEA004B8189 /* ImplicitAnimationDemoController.m */; };
 		5361F1222015CEE1004B8189 /* ImplicitAnimationDemo2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5361F1212015CEE1004B8189 /* ImplicitAnimationDemo2Controller.m */; };
 		5361F1252015D885004B8189 /* ImplicitAnimationDemo3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5361F1242015D885004B8189 /* ImplicitAnimationDemo3Controller.m */; };
 		5361F1282015DABF004B8189 /* ExplicitAnimationDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5361F1272015DABF004B8189 /* ExplicitAnimationDemoController.m */; };
+		53691544215B6A6B0004415E /* ClassicViewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53691543215B6A6B0004415E /* ClassicViewsController.m */; };
+		53691547215B71580004415E /* QzoneStrechableHeadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53691546215B71580004415E /* QzoneStrechableHeadController.m */; };
 		536CE30120B299090098D500 /* CodeAnalysisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 536CE30020B299090098D500 /* CodeAnalysisViewController.m */; };
 		536CE30420B29DB90098D500 /* UIBarButtonItem+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 536CE30320B29DB90098D500 /* UIBarButtonItem+Helper.m */; };
 		536CE30720B29F410098D500 /* icon_home_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 536CE30520B29F410098D500 /* icon_home_back@2x.png */; };
@@ -354,10 +354,6 @@
 		53556EEC206A34F900ECED92 /* PopMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenuItem.h; sourceTree = "<group>"; };
 		53556EED206A34F900ECED92 /* PopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenuView.h; sourceTree = "<group>"; };
 		53556EEE206A34F900ECED92 /* PopMenuViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenuViewCell.m; sourceTree = "<group>"; };
-		53556EF3206A3CEE00ECED92 /* CommentsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentsView.h; sourceTree = "<group>"; };
-		53556EF4206A3CEE00ECED92 /* CommentsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentsView.m; sourceTree = "<group>"; };
-		53556EF6206A3D0A00ECED92 /* CommentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentsViewController.h; sourceTree = "<group>"; };
-		53556EF7206A3D0A00ECED92 /* CommentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentsViewController.m; sourceTree = "<group>"; };
 		5361F113201592BB004B8189 /* AVPalyerLayerDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPalyerLayerDemoController.h; sourceTree = "<group>"; };
 		5361F114201592BB004B8189 /* AVPalyerLayerDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPalyerLayerDemoController.m; sourceTree = "<group>"; };
 		5361F1162015B88E004B8189 /* Ship.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ship.mp4; sourceTree = "<group>"; };
@@ -369,6 +365,10 @@
 		5361F1242015D885004B8189 /* ImplicitAnimationDemo3Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimationDemo3Controller.m; sourceTree = "<group>"; };
 		5361F1262015DABF004B8189 /* ExplicitAnimationDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExplicitAnimationDemoController.h; sourceTree = "<group>"; };
 		5361F1272015DABF004B8189 /* ExplicitAnimationDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExplicitAnimationDemoController.m; sourceTree = "<group>"; };
+		53691542215B6A6B0004415E /* ClassicViewsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassicViewsController.h; sourceTree = "<group>"; };
+		53691543215B6A6B0004415E /* ClassicViewsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassicViewsController.m; sourceTree = "<group>"; };
+		53691545215B71580004415E /* QzoneStrechableHeadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QzoneStrechableHeadController.h; sourceTree = "<group>"; };
+		53691546215B71580004415E /* QzoneStrechableHeadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QzoneStrechableHeadController.m; sourceTree = "<group>"; };
 		536CE2FF20B299090098D500 /* CodeAnalysisViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeAnalysisViewController.h; sourceTree = "<group>"; };
 		536CE30020B299090098D500 /* CodeAnalysisViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeAnalysisViewController.m; sourceTree = "<group>"; };
 		536CE30220B29DB90098D500 /* UIBarButtonItem+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Helper.h"; sourceTree = "<group>"; };
@@ -495,11 +495,12 @@
 		362AE7332026215B00A55F05 /* 自定义视图 */ = {
 			isa = PBXGroup;
 			children = (
-				53556EA620689FA400ECED92 /* 01-弹出视图 */,
-				53556E8E20689DA800ECED92 /* 03-UICollectionView布局 */,
-				53556E732068996700ECED92 /* 07-广告(启动广告、轮播器等) */,
-				362AE78320262F8900A55F05 /* 05-仿今日头条滚动列表 */,
-				362AE76020262CBF00A55F05 /* 02-无线循环滚动banner */,
+				53691541215B6A2D0004415E /* 经典视图 */,
+				53556EA620689FA400ECED92 /* 弹出视图 */,
+				53556E8E20689DA800ECED92 /* UICollectionView布局 */,
+				53556E732068996700ECED92 /* 广告(启动广告、轮播器等) */,
+				362AE78320262F8900A55F05 /* 仿今日头条滚动列表 */,
+				362AE76020262CBF00A55F05 /* 无线循环滚动banner */,
 				362AE7342026217A00A55F05 /* CustomViewsController.h */,
 				362AE7352026217A00A55F05 /* CustomViewsController.m */,
 			);
@@ -519,7 +520,7 @@
 			path = "01-KVO";
 			sourceTree = "<group>";
 		};
-		362AE76020262CBF00A55F05 /* 02-无线循环滚动banner */ = {
+		362AE76020262CBF00A55F05 /* 无线循环滚动banner */ = {
 			isa = PBXGroup;
 			children = (
 				362AE76220262CBF00A55F05 /* InfiniteBannerController.h */,
@@ -531,10 +532,10 @@
 				362AE76420262CBF00A55F05 /* InfiniteBannerViewItem.h */,
 				362AE76720262CBF00A55F05 /* InfiniteBannerViewItem.m */,
 			);
-			path = "02-无线循环滚动banner";
+			path = "无线循环滚动banner";
 			sourceTree = "<group>";
 		};
-		362AE78320262F8900A55F05 /* 05-仿今日头条滚动列表 */ = {
+		362AE78320262F8900A55F05 /* 仿今日头条滚动列表 */ = {
 			isa = PBXGroup;
 			children = (
 				362AE78820262F8900A55F05 /* ScrollingTitlesBarDemo */,
@@ -545,7 +546,7 @@
 				362AE79320262F8900A55F05 /* ScrollingBarCollectionLayout.h */,
 				362AE78620262F8900A55F05 /* ScrollingBarCollectionLayout.m */,
 			);
-			path = "05-仿今日头条滚动列表";
+			path = "仿今日头条滚动列表";
 			sourceTree = "<group>";
 		};
 		362AE78820262F8900A55F05 /* ScrollingTitlesBarDemo */ = {
@@ -828,7 +829,7 @@
 			path = SpecialLayers;
 			sourceTree = "<group>";
 		};
-		53556E732068996700ECED92 /* 07-广告(启动广告、轮播器等) */ = {
+		53556E732068996700ECED92 /* 广告(启动广告、轮播器等) */ = {
 			isa = PBXGroup;
 			children = (
 				53556EC62068BFCE00ECED92 /* 02-启动广告页 */,
@@ -836,10 +837,10 @@
 				53556E74206899B600ECED92 /* ADCollectionsController.h */,
 				53556E75206899B600ECED92 /* ADCollectionsController.m */,
 			);
-			path = "07-广告(启动广告、轮播器等)";
+			path = "广告(启动广告、轮播器等)";
 			sourceTree = "<group>";
 		};
-		53556E8E20689DA800ECED92 /* 03-UICollectionView布局 */ = {
+		53556E8E20689DA800ECED92 /* UICollectionView布局 */ = {
 			isa = PBXGroup;
 			children = (
 				53556E9A20689DA800ECED92 /* 02-流水布局 */,
@@ -847,7 +848,7 @@
 				53556E9820689DA800ECED92 /* CollectionLayoutTypesController.h */,
 				53556E9920689DA800ECED92 /* CollectionLayoutTypesController.m */,
 			);
-			path = "03-UICollectionView布局";
+			path = "UICollectionView布局";
 			sourceTree = "<group>";
 		};
 		53556E8F20689DA800ECED92 /* 01-瀑布流 */ = {
@@ -876,16 +877,15 @@
 			path = "02-流水布局";
 			sourceTree = "<group>";
 		};
-		53556EA620689FA400ECED92 /* 01-弹出视图 */ = {
+		53556EA620689FA400ECED92 /* 弹出视图 */ = {
 			isa = PBXGroup;
 			children = (
-				53556EF2206A3CC000ECED92 /* 03-评论区 */,
 				53556EA720689FA400ECED92 /* 02-自定义datePicker */,
 				53556EAD20689FA400ECED92 /* 01-带箭头弹出菜单 */,
 				53556EBF2068A00200ECED92 /* PopViewCollectsController.h */,
 				53556EC02068A00200ECED92 /* PopViewCollectsController.m */,
 			);
-			path = "01-弹出视图";
+			path = "弹出视图";
 			sourceTree = "<group>";
 		};
 		53556EA720689FA400ECED92 /* 02-自定义datePicker */ = {
@@ -952,17 +952,6 @@
 			path = PopMenuView;
 			sourceTree = "<group>";
 		};
-		53556EF2206A3CC000ECED92 /* 03-评论区 */ = {
-			isa = PBXGroup;
-			children = (
-				53556EF3206A3CEE00ECED92 /* CommentsView.h */,
-				53556EF4206A3CEE00ECED92 /* CommentsView.m */,
-				53556EF6206A3D0A00ECED92 /* CommentsViewController.h */,
-				53556EF7206A3D0A00ECED92 /* CommentsViewController.m */,
-			);
-			path = "03-评论区";
-			sourceTree = "<group>";
-		};
 		5361F1182015BB90004B8189 /* ImplicitAnimation(隐式动画) */ = {
 			isa = PBXGroup;
 			children = (
@@ -983,6 +972,17 @@
 				5361F1272015DABF004B8189 /* ExplicitAnimationDemoController.m */,
 			);
 			path = "ExplicitAnimation(显示动画)";
+			sourceTree = "<group>";
+		};
+		53691541215B6A2D0004415E /* 经典视图 */ = {
+			isa = PBXGroup;
+			children = (
+				53691542215B6A6B0004415E /* ClassicViewsController.h */,
+				53691543215B6A6B0004415E /* ClassicViewsController.m */,
+				53691545215B71580004415E /* QzoneStrechableHeadController.h */,
+				53691546215B71580004415E /* QzoneStrechableHeadController.m */,
+			);
+			path = "经典视图";
 			sourceTree = "<group>";
 		};
 		536CE2FE20B298EB0098D500 /* CodeAnalysis */ = {
@@ -1276,6 +1276,7 @@
 				362AE7A62026310000A55F05 /* AppstoreInfo.m in Sources */,
 				362AE79620262F8900A55F05 /* ScrollingBarParentController.m in Sources */,
 				362AE729202617EC00A55F05 /* WechatAfterLoginController.m in Sources */,
+				53691547215B71580004415E /* QzoneStrechableHeadController.m in Sources */,
 				362AE79C20262F8900A55F05 /* ScrollingTitlesBarController.m in Sources */,
 				362AE73F2026224800A55F05 /* NSObject+KVO_Block.m in Sources */,
 				536CE30B20B29FB10098D500 /* UIImage+Helper.m in Sources */,
@@ -1314,6 +1315,7 @@
 				362AE73E2026224800A55F05 /* KVO_Observer.m in Sources */,
 				530ED0201FEA04AC00D60DAA /* main.m in Sources */,
 				536CE30420B29DB90098D500 /* UIBarButtonItem+Helper.m in Sources */,
+				53691544215B6A6B0004415E /* ClassicViewsController.m in Sources */,
 				362AE79B20262F8900A55F05 /* TencentViewController.m in Sources */,
 				53556EB620689FA400ECED92 /* HYDDatePickerView.m in Sources */,
 				5348FFEF200DF5BA00F68D42 /* StretchFilterDemoController.m in Sources */,
@@ -1336,7 +1338,6 @@
 				362AE7BE20263C2600A55F05 /* ShopTableViewCell.m in Sources */,
 				5348FFF3200DF5BA00F68D42 /* GeometryDemoController.m in Sources */,
 				362AE79A20262F8900A55F05 /* NetsViewController.m in Sources */,
-				53556EF8206A3D0A00ECED92 /* CommentsViewController.m in Sources */,
 				53556EEF206A34F900ECED92 /* PopMenuItem.m in Sources */,
 				53FAFC1920AEB5F90044C79A /* BaiduWebViewController.m in Sources */,
 				53480003200DF5BE00F68D42 /* CAGradientLayerDemoController.m in Sources */,
@@ -1358,7 +1359,6 @@
 				530ED0401FEA131A00D60DAA /* AnimiationTableViewController.m in Sources */,
 				53A6AEF220E3726500CDE68A /* HYDRedPacketSegmentControl.m in Sources */,
 				53556EF1206A34F900ECED92 /* PopMenuViewCell.m in Sources */,
-				53556EF5206A3CEE00ECED92 /* CommentsView.m in Sources */,
 				530ED01C1FEA04AC00D60DAA /* AppDelegate.m in Sources */,
 				53556EC92068BFCE00ECED92 /* LaunchAdsController.m in Sources */,
 				53556EB720689FA400ECED92 /* DatePickerViewController.m in Sources */,
@@ -1522,6 +1522,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ObjcDemoCollection/Other/ObjcDemoCollection.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/ObjcDemoCollection/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.ObjcDemoCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1537,6 +1538,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ObjcDemoCollection/Other/ObjcDemoCollection.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/ObjcDemoCollection/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.ObjcDemoCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";

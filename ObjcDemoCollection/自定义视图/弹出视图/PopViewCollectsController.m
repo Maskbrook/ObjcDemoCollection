@@ -10,7 +10,6 @@
 #import "BaseTableViewCell.h"
 #import "PopMenuController.h"
 #import "DatePickerViewController.h"
-#import "CommentsViewController.h"
 
 @interface PopViewCollectsController ()
 
@@ -24,7 +23,6 @@
     self.items = @[
                    @{@"title" : @"01-带箭头的弹出菜单", @"controller" : [PopMenuController new]},
                    @{@"title" : @"02-日期选择", @"controller" : [DatePickerViewController new]},
-                   @{@"title" : @"03-评论区", @"controller" : [CommentsViewController new]},
                    ].mutableCopy;
 }
 
