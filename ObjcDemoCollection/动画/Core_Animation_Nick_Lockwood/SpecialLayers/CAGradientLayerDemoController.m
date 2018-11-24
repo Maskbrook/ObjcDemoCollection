@@ -17,6 +17,7 @@
     UIView *basicGradientView;
     UIView *mutipleGradientView;
     UIButton *loginButton;
+    UILabel *titleLabel;
 }
 
 - (void)viewDidLoad
@@ -46,6 +47,8 @@
     [loginButton setBackgroundColor:kThemeColor];
     [loginButton setTitle:@"登录" forState:UIControlStateNormal];
     [self.view addSubview:loginButton];
+    
+    
 }
 
 // 设置按钮渐变
