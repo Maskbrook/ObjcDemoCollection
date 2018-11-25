@@ -52,7 +52,7 @@
         }
     }
     
-    [UIView animateWithDuration:0.35 delay:3.0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
+    [UIView animateWithDuration:0.35 delay:0.0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
         controller.view.alpha = 0.0f;
         controller.view.layer.transform = CATransform3DScale(CATransform3DIdentity, 2.0f, 2.0f, 1.0f);
     } completion:^(BOOL finished) {

@@ -23,7 +23,6 @@
     [button setBackgroundImage:highImage forState:UIControlStateHighlighted];
     
     button.frame = (CGRect){CGPointZero, button.currentBackgroundImage.size};
-    button.backgroundColor = [UIColor redColor];
     [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     return [[UIBarButtonItem alloc] initWithCustomView:button];
 }

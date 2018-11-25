@@ -28,6 +28,7 @@
 #define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
 #define iPhone4or5 (iPhone4||iPhone5)
 #define iPhoneX  ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define ALD(x) ((kScreenWidth / 375) * x)
 
 //-------------------快捷创建------------------------
 #define SCREEN_WIDTH  ([UIScreen mainScreen].bounds.size.width)

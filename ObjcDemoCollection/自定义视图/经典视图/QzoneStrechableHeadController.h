@@ -6,8 +6,8 @@
 //  Copyright © 2018年 jiabaozhang. All rights reserved.
 //
 
-#import "BaseTableViewController.h"
+#import "BaseViewController.h"
 
-@interface QzoneStrechableHeadController : BaseTableViewController
+@interface QzoneStrechableHeadController : BaseViewController
 
 @end
